@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GBB 反应模拟系统 - 文件服务器</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 900px; margin: 40px auto; padding: 20px; background: #f5f5f5; }
+        .card { background: white; border-radius: 8px; padding: 24px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        h1 { color: #333; border-bottom: 3px solid #4CAF50; padding-bottom: 10px; }
+        h2 { color: #4CAF50; }
+        .file-list { list-style: none; padding: 0; }
+        .file-list li { padding: 12px; margin: 8px 0; background: #f9f9f9; border-radius: 6px; border-left: 4px solid #4CAF50; }
+        .file-list a { color: #2196F3; text-decoration: none; font-weight: 500; }
+        .file-list a:hover { text-decoration: underline; }
+        .file-type { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 12px; margin-left: 10px; }
+        .py { background: #3776ab; color: white; }
+        .json { background: #f7df1e; color: #333; }
+        .md { background: #563c5c; color: white; }
+        .html { background: #e34c26; color: white; }
+        .status { padding: 10px 16px; background: #e8f5e9; border-radius: 6px; margin: 16px 0; }
+        .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 16px; margin: 20px 0; }
+        .stat-box { background: #f0f0f0; padding: 16px; border-radius: 8px; text-align: center; }
+        .stat-value { font-size: 24px; font-weight: bold; color: #4CAF50; }
+        .stat-label { color: #666; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🧪 GBB 反应模拟系统</h1>
+        <p><strong>Groebke-Blackburn-Bienaymé Reaction Simulator</strong></p>
+        
+        <div class="status">
+            ✅ RDKit 已安装 (版本：2022.09.5) | 测试成功率：50% | 最后更新：2026-03-03
+        </div>
+
+        <div class="stats">
+            <div class="stat-box">
+                <div class="stat-value">7</div>
+                <div class="stat-label">醛类反应物</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-value">4</div>
+                <div class="stat-label">胺类反应物</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-value">4</div>
+                <div class="stat-label">异腈类反应物</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-value">288</div>
+                <div class="stat-label">可能组合</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>📁 文件列表</h2>
+        <ul class="file-list">
+            <li>
+                <a href="index.html">📄 index.html</a>
+                <span class="file-type html">HTML</span>
+                <br><small>本页面 - 文件服务器索引</small>
+            </li>
+            <li>
+                <a href="README.md">📖 README.md</a>
+                <span class="file-type md">Markdown</span>
+                <br><small>完整项目文档</small>
+            </li>
+            <li>
+                <a href="summary_report.md">📊 summary_report.md</a>
+                <span class="file-type md">Markdown</span>
+                <br><small>搜索结果报告</small>
+            </li>
+            <li>
+                <a href="resources.md">🔗 resources.md</a>
+                <span class="file-type md">Markdown</span>
+                <br><small>相关资源列表</small>
+            </li>
+            <li>
+                <a href="gbb_rdkit_full.py">🐍 gbb_rdkit_full.py</a>
+                <span class="file-type py">Python</span>
+                <br><small>完整 RDKit 模拟脚本 (推荐运行)</small>
+            </li>
+            <li>
+                <a href="gbb_lite.py">🐍 gbb_lite.py</a>
+                <span class="file-type py">Python</span>
+                <br><small>轻量级模拟器 (无需 RDKit)</small>
+            </li>
+            <li>
+                <a href="gbb_simulation.py">🐍 gbb_simulation.py</a>
+                <span class="file-type py">Python</span>
+                <br><small>早期模拟脚本</small>
+            </li>
+            <li>
+                <a href="gbb_test_data.json">📋 gbb_test_data.json</a>
+                <span class="file-type json">JSON</span>
+                <br><small>轻量版测试数据 (15 个反应)</small>
+            </li>
+            <li>
+                <a href="gbb_rdkit_results.json">📋 gbb_rdkit_results.json</a>
+                <span class="file-type json">JSON</span>
+                <br><small>RDKit 测试结果 (4 个测试)</small>
+            </li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🚀 快速开始</h2>
+        <pre style="background: #f5f5f5; padding: 16px; border-radius: 6px; overflow-x: auto;"><code># 运行完整 RDKit 模拟
+python3 gbb_rdkit_full.py
+
+# 运行轻量级版本 (无需 RDKit)
+python3 gbb_lite.py</code></pre>
+    </div>
+
+    <div class="card">
+        <h2>📊 测试结果预览</h2>
+        <pre style="background: #f5f5f5; padding: 16px; border-radius: 6px; overflow-x: auto;"><code>测试 1: benzaldehyde + 2-aminopyridine + tert-butyl isocyanide
+  ✅ 产物分子量：265.36 Da
+
+测试 2: 4-methylbenzaldehyde + 2-aminopyridine + ethyl isocyanide
+  ✅ 产物分子量：251.33 Da
+
+成功率：50.0% (2/4)</code></pre>
+    </div>
+
+    <div class="card">
+        <h2>🔬 反应物描述符</h2>
+        <table style="width: 100%; border-collapse: collapse;">
+            <tr style="background: #f0f0f0;">
+                <th style="padding: 10px; text-align: left;">化合物</th>
+                <th style="padding: 10px;">MW</th>
+                <th style="padding: 10px;">LogP</th>
+                <th style="padding: 10px;">HBA</th>
+                <th style="padding: 10px;">HBD</th>
+            </tr>
+            <tr>
+                <td style="padding: 10px;">benzaldehyde</td>
+                <td style="padding: 10px; text-align: center;">106.12</td>
+                <td style="padding: 10px; text-align: center;">1.50</td>
+                <td style="padding: 10px; text-align: center;">1</td>
+                <td style="padding: 10px; text-align: center;">0</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px;">2-aminopyridine</td>
+                <td style="padding: 10px; text-align: center;">94.12</td>
+                <td style="padding: 10px; text-align: center;">0.66</td>
+                <td style="padding: 10px; text-align: center;">2</td>
+                <td style="padding: 10px; text-align: center;">1</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px;">tert-butyl isocyanide</td>
+                <td style="padding: 10px; text-align: center;">83.13</td>
+                <td style="padding: 10px; text-align: center;">1.70</td>
+                <td style="padding: 10px; text-align: center;">0</td>
+                <td style="padding: 10px; text-align: center;">0</td>
+            </tr>
+        </table>
+    </div>
+
+    <footer style="text-align: center; color: #666; margin-top: 40px;">
+        <p>GBB 反应模拟系统 | 最后更新：2026-03-03 23:18</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,152 @@
+[
+  {
+    "reaction_id": "GBB-3-p-2-a-cyc",
+    "aldehyde": "3-pyridinecarboxaldehyde",
+    "amine": "2-amino-6-methylpyridine",
+    "isocyanide": "cyclohexyl isocyanide",
+    "product_name": "6-methyl-3-3-pyridincarboxyl-2-cyclohexyl-imidazo[1,2-a]pyridine",
+    "product_smiles": "[GBB-product]: O=Cc1cccnc1 + Cc1cccc(N)n1 + [N+]#[C-]C1CCCCC1",
+    "status": "predicted",
+    "yield_predicted": 72.0
+  },
+  {
+    "reaction_id": "GBB-3-p-2-a-met",
+    "aldehyde": "3-pyridinecarboxaldehyde",
+    "amine": "2-amino-5-chloropyridine",
+    "isocyanide": "methyl isocyanide",
+    "product_name": "5-chloro-3-3-pyridincarboxyl-2-methyl-imidazo[1,2-a]pyridine",
+    "product_smiles": "[GBB-product]: O=Cc1cccnc1 + Nc1ccc(Cl)cn1 + C[N+]#[C-]",
+    "status": "predicted",
+    "yield_predicted": 78.0
+  },
+  {
+    "reaction_id": "GBB-ace-2-a-4-m",
+    "aldehyde": "acetaldehyde",
+    "amine": "2-amino-4-methylpyridine",
+    "isocyanide": "4-methylphenyl isocyanide",
+    "product_name": "4-methyl-3-actyl-2-4-methylphenyl-imidazo[1,2-a]pyridine",
+    "product_smiles": "[GBB-product]: CC=O + Cc1cc(N)ccn1 + Cc1ccc([N+]#[C-])cc1",
+    "status": "predicted",
+    "yield_predicted": 69.0
+  },
+  {
+    "reaction_id": "GBB-4-m-2-a-eth",
+    "aldehyde": "4-methoxybenzaldehyde",
+    "amine": "2-amino-6-methylpyridine",
+    "isocyanide": "ethyl isocyanide",
+    "product_name": "6-methyl-3-4-mthoxybnzyl-2-ethyl-imidazo[1,2-a]pyridine",
+    "product_smiles": "[GBB-product]: COc1ccc(C=O)cc1 + Cc1cccc(N)n1 + CC[N+]#[C-]",
+    "status": "predicted",
+    "yield_predicted": 67.0
+  },
+  {
+    "reaction_id": "GBB-ace-2-a-4-m",
+    "aldehyde": "acetaldehyde",
+    "amine": "2-amino-3-methylpyridine",
+    "isocyanide": "4-methylphenyl isocyanide",
+    "product_name": "3-methyl-3-actyl-2-4-methylphenyl-imidazo[1,2-a]pyridine",
+    "product_smiles": "[GBB-product]: CC=O + Cc1ncccc1N + Cc1ccc([N+]#[C-])cc1",
+    "status": "predicted",
+    "yield_predicted": 69.0
+  },
+  {
+    "reaction_id": "GBB-4-m-2-a-ter",
+    "aldehyde": "4-methoxybenzaldehyde",
+    "amine": "2-amino-4-methylpyridine",
+    "isocyanide": "tert-butyl isocyanide",
+    "product_name": "4-methyl-3-4-mthoxybnzyl-2-tert-butyl-imidazo[1,2-a]pyridine",
+    "product_smiles": "[GBB-product]: COc1ccc(C=O)cc1 + Cc1cc(N)ccn1 + CC(C)(C)[N+]#[C-]",
+    "status": "predicted",
+    "yield_predicted": 62.0
+  },
+  {
+    "reaction_id": "GBB-ace-2-a-cyc",
+    "aldehyde": "acetaldehyde",
+    "amine": "2-amino-4-methylpyridine",
+    "isocyanide": "cyclohexyl isocyanide",
+    "product_name": "4-methyl-3-actyl-2-cyclohexyl-imidazo[1,2-a]pyridine",
+    "product_smiles": "[GBB-product]: CC=O + Cc1cc(N)ccn1 + [N+]#[C-]C1CCCCC1",
+    "status": "predicted",
+    "yield_predicted": 72.0
+  },
+  {
+    "reaction_id": "GBB-4-n-2-a-met",
+    "aldehyde": "4-nitrobenzaldehyde",
+    "amine": "2-amino-3-methylpyridine",
+    "isocyanide": "methyl isocyanide",
+    "product_name": "3-methyl-3-4-nitrobnzyl-2-methyl-imidazo[1,2-a]pyridine",
+    "product_smiles": "[GBB-product]: [O-][N+](=O)c1ccc(C=O)cc1 + Cc1ncccc1N + C[N+]#[C-]",
+    "status": "predicted",
+    "yield_predicted": 82.0
+  },
+  {
+    "reaction_id": "GBB-ace-2-a-ter",
+    "aldehyde": "acetaldehyde",
+    "amine": "2-amino-5-bromopyridine",
+    "isocyanide": "tert-butyl isocyanide",
+    "product_name": "5-bromo-3-actyl-2-tert-butyl-imidazo[1,2-a]pyridine",
+    "product_smiles": "[GBB-product]: CC=O + Nc1ccc(Br)cn1 + CC(C)(C)[N+]#[C-]",
+    "status": "predicted",
+    "yield_predicted": 73.0
+  },
+  {
+    "reaction_id": "GBB-4-m-2-a-eth",
+    "aldehyde": "4-methylbenzaldehyde",
+    "amine": "2-amino-3-methylpyridine",
+    "isocyanide": "ethyl isocyanide",
+    "product_name": "3-methyl-3-4-mthylbnzyl-2-ethyl-imidazo[1,2-a]pyridine",
+    "product_smiles": "[GBB-product]: Cc1ccc(C=O)cc1 + Cc1ncccc1N + CC[N+]#[C-]",
+    "status": "predicted",
+    "yield_predicted": 72.0
+  },
+  {
+    "reaction_id": "GBB-4-n-2-a-phe",
+    "aldehyde": "4-nitrobenzaldehyde",
+    "amine": "2-amino-5-bromopyridine",
+    "isocyanide": "phenyl isocyanide",
+    "product_name": "5-bromo-3-4-nitrobnzyl-2-phenyl-imidazo[1,2-a]pyridine",
+    "product_smiles": "[GBB-product]: [O-][N+](=O)c1ccc(C=O)cc1 + Nc1ccc(Br)cn1 + [N+]#[C-]c1ccccc1",
+    "status": "predicted",
+    "yield_predicted": 85.0
+  },
+  {
+    "reaction_id": "GBB-3-p-2-a-4-m",
+    "aldehyde": "3-pyridinecarboxaldehyde",
+    "amine": "2-aminopyridine",
+    "isocyanide": "4-methylphenyl isocyanide",
+    "product_name": "3-3-pyridincarboxyl-2-4-methylphenyl-imidazo[1,2-a]pyridine",
+    "product_smiles": "[GBB-product]: O=Cc1cccnc1 + Nc1ccccn1 + Cc1ccc([N+]#[C-])cc1",
+    "status": "predicted",
+    "yield_predicted": 72.0
+  },
+  {
+    "reaction_id": "GBB-ace-2-a-eth",
+    "aldehyde": "acetaldehyde",
+    "amine": "2-amino-5-chloropyridine",
+    "isocyanide": "ethyl isocyanide",
+    "product_name": "5-chloro-3-actyl-2-ethyl-imidazo[1,2-a]pyridine",
+    "product_smiles": "[GBB-product]: CC=O + Nc1ccc(Cl)cn1 + CC[N+]#[C-]",
+    "status": "predicted",
+    "yield_predicted": 78.0
+  },
+  {
+    "reaction_id": "GBB-4-m-2-a-ter",
+    "aldehyde": "4-methoxybenzaldehyde",
+    "amine": "2-amino-6-methylpyridine",
+    "isocyanide": "tert-butyl isocyanide",
+    "product_name": "6-methyl-3-4-mthoxybnzyl-2-tert-butyl-imidazo[1,2-a]pyridine",
+    "product_smiles": "[GBB-product]: COc1ccc(C=O)cc1 + Cc1cccc(N)n1 + CC(C)(C)[N+]#[C-]",
+    "status": "predicted",
+    "yield_predicted": 62.0
+  },
+  {
+    "reaction_id": "GBB-4-n-2-a-4-m",
+    "aldehyde": "4-nitrobenzaldehyde",
+    "amine": "2-amino-4-methylpyridine",
+    "isocyanide": "4-methylphenyl isocyanide",
+    "product_name": "4-methyl-3-4-nitrobnzyl-2-4-methylphenyl-imidazo[1,2-a]pyridine",
+    "product_smiles": "[GBB-product]: [O-][N+](=O)c1ccc(C=O)cc1 + Cc1cc(N)ccn1 + Cc1ccc([N+]#[C-])cc1",
+    "status": "predicted",
+    "yield_predicted": 79.0
+  }
+]

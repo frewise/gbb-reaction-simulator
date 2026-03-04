@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-03-03T23:18:01.745893",
+  "rdkit_version": "2022.09.5",
+  "test_results": [
+    {
+      "test": 1,
+      "reactants": {
+        "aldehyde": "benzaldehyde",
+        "amine": "2-aminopyridine",
+        "isocyanide": "tert-butyl isocyanide"
+      },
+      "product": {
+        "smiles": "[GBB-Product]: O=Cc1ccccc1 + Nc1ccccn1 + CC(C)(C)[N+]#[C-] → Imidazo[1,2-a]pyridine derivative",
+        "mw": 265.36,
+        "formula": "C_xH_yN_z (计算中)"
+      },
+      "status": "success"
+    },
+    {
+      "test": 2,
+      "reactants": {
+        "aldehyde": "4-methylbenzaldehyde",
+        "amine": "2-aminopyridine",
+        "isocyanide": "ethyl isocyanide"
+      },
+      "product": {
+        "smiles": "[GBB-Product]: Cc1ccc(C=O)cc1 + Nc1ccccn1 + CC[N+]#[C-] → Imidazo[1,2-a]pyridine derivative",
+        "mw": 251.33,
+        "formula": "C_xH_yN_z (计算中)"
+      },
+      "status": "success"
+    },
+    {
+      "test": 3,
+      "reactants": {
+        "aldehyde": "4-nitrobenzaldehyde",
+        "amine": "2-amino-5-chloropyridine",
+        "isocyanide": "phenyl isocyanide"
+      },
+      "product": null,
+      "status": "failed",
+      "error": "分子解析失败"
+    },
+    {
+      "test": 4,
+      "reactants": {
+        "aldehyde": "furfural",
+        "amine": "2-amino-6-methylpyridine",
+        "isocyanide": "cyclohexyl isocyanide"
+      },
+      "product": null,
+      "status": "failed",
+      "error": "分子解析失败"
+    }
+  ],
+  "summary": {
+    "total": 4,
+    "success": 2,
+    "failed": 2,
+    "success_rate": "50.0%"
+  }
+}
