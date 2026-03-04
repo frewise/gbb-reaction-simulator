@@ -120,8 +120,9 @@ stats = {
     'failed': 0
 }
 
-# 测试前 100 个案例
-test_cases = df.head(100)
+# 测试全部 2052 个案例
+test_cases = df
+print(f"🔬 测试模式：全部 {len(df)} 个案例")
 
 for idx, row in test_cases.iterrows():
     stats['total'] += 1
