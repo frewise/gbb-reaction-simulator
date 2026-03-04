@@ -1,0 +1,2684 @@
+{
+  "test_info": {
+    "timestamp": "2026-03-04T12:49:12.454452",
+    "engine_version": "v7.3",
+    "data_source": "/root/.openclaw/workspace/gbb-reaction/data/real_cases.csv",
+    "test_cases": 100,
+    "rdkit_version": "2022.09.5"
+  },
+  "summary_statistics": {
+    "total": 100,
+    "success": 97,
+    "exact_match": 97,
+    "high_similarity": 0,
+    "core_match": 97,
+    "mw_match": 97,
+    "failed": 3
+  },
+  "detailed_results": [
+    {
+      "entry": 1163,
+      "z_id": "Z8873684644",
+      "yield_percent": 0.6,
+      "components": {
+        "A": "Cc1ccc(N)nc1Cl",
+        "B": "COc1cc(C)ncc1C=O",
+        "C": "COC(=O)CCC([N+]#[C-])C(=O)OC10",
+        "Actual_Product": "COC(=O)CCC(NC1=C(N=C2C=CC(C)=C(Cl)N12)C1=C(OC)C=C(C)N=C1)C(=O)OC"
+      },
+      "prediction": {
+        "status": "反应物解析失败",
+        "success": false
+      }
+    },
+    {
+      "entry": 357,
+      "z_id": "Z8803896930",
+      "yield_percent": 1.4,
+      "components": {
+        "A": "Nc1ccc(cn1)S(=O)(=O)O",
+        "B": "Cc1ccc(C=O)cc1F",
+        "C": "COC(=O)[C@@H]1CC[C@@H](C1)[N+]#[C-]",
+        "Actual_Product": "COC(=O)[C@@H]1CC[C@@H](C1)NC1=C(N=C2C=CC(=CN12)S(O)(=O)=O)C1=CC(F)=C(C)C=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COC(=O)[C@@H]1CC[C@H](Nc2c(-c3ccc(C)c(F)c3)nc3ccc(S(=O)(=O)O)cn23)C1",
+        "mw": 447.49,
+        "logp": 3.45,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 447.49,
+        "predicted_mw": 447.49,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 968,
+      "z_id": "Z8810903047",
+      "yield_percent": 1.4,
+      "components": {
+        "A": "Nc1cnc(Br)c(Cl)n1",
+        "B": "Cc1nn(C)c(C)c1C=O",
+        "C": "CC(C)[N+]#[C-]",
+        "Actual_Product": "CC(C)NC1=C(N=C2C=NC(Br)=C(Cl)N12)C1=C(C)N(C)N=C1C"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "Cc1nn(C)c(C)c1-c1nc2cnc(Br)c(Cl)n2c1NC(C)C",
+        "mw": 397.71,
+        "logp": 3.98,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 397.71,
+        "predicted_mw": 397.71,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 356,
+      "z_id": "Z8808559870",
+      "yield_percent": 1.6,
+      "components": {
+        "A": "COCCN(C)c1ccc(N)nc1",
+        "B": "CC#CCCCC=O",
+        "C": "COC(=O)CCC([N+]#[C-])C(=O)OC",
+        "Actual_Product": "COCCN(C)C1=CN2C(C=C1)=NC(CCCC#CC)=C2NC(CCC(=O)OC)C(=O)OC"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CC#CCCCc1nc2ccc(N(C)CCOC)cn2c1NC(CCC(=O)OC)C(=O)OC",
+        "mw": 458.56,
+        "logp": 2.67,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 458.56,
+        "predicted_mw": 458.56,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1920,
+      "z_id": "Z8878918513",
+      "yield_percent": 1.6,
+      "components": {
+        "A": "Nc1cc(C#N)c(Cl)cn1",
+        "B": "O=Cc1cnc(s1)c2ccncc2",
+        "C": "[C-]#[N+]CC1CCOC1",
+        "Actual_Product": "ClC1=CN2C(NCC3CCOC3)=C(N=C2C=C1C#N)C1=CN=C(S1)C1=CC=NC=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "N#Cc1cc2nc(-c3cnc(-c4ccncc4)s3)c(NCC3CCOC3)n2cc1Cl",
+        "mw": 436.93,
+        "logp": 4.49,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 436.93,
+        "predicted_mw": 436.93,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 353,
+      "z_id": "Z8778277287",
+      "yield_percent": 1.8,
+      "components": {
+        "A": "COc1ccnnc1N",
+        "B": "O=Cc1ccccn1",
+        "C": "[C-]#[N+]CC1CCOCC1",
+        "Actual_Product": "COC1=CC=NN2C(NCC3CCOCC3)=C(N=C12)C1=NC=CC=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COc1ccnn2c(NCC3CCOCC3)c(-c3ccccn3)nc12",
+        "mw": 339.4,
+        "logp": 2.64,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 339.4,
+        "predicted_mw": 339.4,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1917,
+      "z_id": "Z8878918400",
+      "yield_percent": 1.8,
+      "components": {
+        "A": "Nc1ccc(Cl)c(Br)n1",
+        "B": "O=CCCN1CCOC1=O",
+        "C": "CC(C)[N+]#[C-]",
+        "Actual_Product": "CC(C)NC1=C(CCN2CCOC2=O)N=C2C=CC(Cl)=C(Br)N12"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CC(C)Nc1c(CCN2CCOC2=O)nc2ccc(Cl)c(Br)n12",
+        "mw": 401.69,
+        "logp": 3.57,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 401.69,
+        "predicted_mw": 401.69,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1918,
+      "z_id": "Z8873685448",
+      "yield_percent": 1.8,
+      "components": {
+        "A": "Nc1ncccc1N2CCOCC2",
+        "B": "Cc1cc(C=O)no1",
+        "C": "CCOC(=O)CCC[N+]#[C-]",
+        "Actual_Product": "CCOC(=O)CCCNC1=C(N=C2N1C=CC=C2N1CCOCC1)C1=NOC(C)=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CCOC(=O)CCCNc1c(-c2cc(C)on2)nc2c(N3CCOCC3)cccn12",
+        "mw": 413.48,
+        "logp": 2.89,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 413.48,
+        "predicted_mw": 413.48,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 354,
+      "z_id": "Z8780122034",
+      "yield_percent": 2.0,
+      "components": {
+        "A": "Nc1ncc(Cl)c(Cl)c1Cl",
+        "B": "Fc1ccc(C=O)cc1",
+        "C": "CCCC[N+]#[C-]",
+        "Actual_Product": "CCCCNC1=C(N=C2N1C=C(Cl)C(Cl)=C2Cl)C1=CC=C(F)C=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CCCCNc1c(-c2ccc(F)cc2)nc2c(Cl)c(Cl)c(Cl)cn12",
+        "mw": 386.69,
+        "logp": 6.31,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 386.69,
+        "predicted_mw": 386.69,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1908,
+      "z_id": "Z8873685257",
+      "yield_percent": 2.0,
+      "components": {
+        "A": "Cc1cncc(N)n1",
+        "B": "O=Cc1noc2CCCc12",
+        "C": "C[N+]#[C-]",
+        "Actual_Product": "CNC1=C(N=C2C=NC=C(C)N12)C1=NOC2=C1CCC2"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CNc1c(-c2noc3c2CCC3)nc2cncc(C)n12",
+        "mw": 269.31,
+        "logp": 2.22,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 269.31,
+        "predicted_mw": 269.31,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1916,
+      "z_id": "Z8873684620",
+      "yield_percent": 2.0,
+      "components": {
+        "A": "Cc1cc(Br)cc(N)n1",
+        "B": "Cn1ncnc1C=O",
+        "C": "[C-]#[N+]CC1CC1",
+        "Actual_Product": "CN1N=CN=C1C1=C(NCC2CC2)N2C(C=C(Br)C=C2C)=N1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "Cc1cc(Br)cc2nc(-c3ncnn3C)c(NCC3CC3)n12",
+        "mw": 361.25,
+        "logp": 3.02,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 361.25,
+        "predicted_mw": 361.25,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1919,
+      "z_id": "Z8878918392",
+      "yield_percent": 2.0,
+      "components": {
+        "A": "Cc1cc(nnc1N)C(F)(F)F",
+        "B": "COc1cc(C=O)ccc1S(=O)(=O)C",
+        "C": "[C-]#[N+]C1CCOCC1",
+        "Actual_Product": "COC1=C(C=CC(=C1)C1=C(NC2CCOCC2)N2N=C(C=C(C)C2=N1)C(F)(F)F)S(C)(=O)=O"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COc1cc(-c2nc3c(C)cc(C(F)(F)F)nn3c2NC2CCOCC2)ccc1S(C)(=O)=O",
+        "mw": 484.5,
+        "logp": 3.73,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 484.5,
+        "predicted_mw": 484.5,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 355,
+      "z_id": "Z8810903007",
+      "yield_percent": 2.2,
+      "components": {
+        "A": "Nc1nccnc1OC2CCC2",
+        "B": "O=CCN1C(=O)c2ccccc2C1=O",
+        "C": "[C-]#[N+]C1CCOC1",
+        "Actual_Product": "O=C1N(CC2=C(NC3CCOC3)N3C=CN=C(OC4CCC4)C3=N2)C(=O)C2=C1C=CC=C2"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "O=C1c2ccccc2C(=O)N1Cc1nc2c(OC3CCC3)nccn2c1NC1CCOC1",
+        "mw": 433.47,
+        "logp": 2.66,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 433.47,
+        "predicted_mw": 433.47,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 967,
+      "z_id": "Z8837933173",
+      "yield_percent": 2.2,
+      "components": {
+        "A": "Nc1ncc2COCCc2c1C#N",
+        "B": "Cc1nc(C=O)c[nH]1",
+        "C": "Brc1cccc(C[N+]#[C-])c1",
+        "Actual_Product": "CC1=NC(=CN1)C1=C(NCC2=CC(Br)=CC=C2)N2C=C3COCCC3=C(C#N)C2=N1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "Cc1nc(-c2nc3c(C#N)c4c(cn3c2NCc2cccc(Br)c2)COCC4)c[nH]1",
+        "mw": 463.34,
+        "logp": 4.35,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 463.34,
+        "predicted_mw": 463.34,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 350,
+      "z_id": "Z8798985046",
+      "yield_percent": 2.4,
+      "components": {
+        "A": "Nc1nccnc1N2CCCC2",
+        "B": "COC(=O)c1cc(C=O)nn1C",
+        "C": "COCC[N+]#[C-]",
+        "Actual_Product": "COCCNC1=C(N=C2N1C=CN=C2N1CCCC1)C1=NN(C)C(=C1)C(=O)OC"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COCCNc1c(-c2cc(C(=O)OC)n(C)n2)nc2c(N3CCCC3)nccn12",
+        "mw": 399.46,
+        "logp": 1.57,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 399.46,
+        "predicted_mw": 399.46,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 352,
+      "z_id": "Z8781341773",
+      "yield_percent": 2.4,
+      "components": {
+        "A": "Nc1ccc(nn1)C(F)(F)F",
+        "B": "COCn1nccc1C=O",
+        "C": "COC(=O)C1CC(C1)[N+]#[C-]",
+        "Actual_Product": "COCN1N=CC=C1C1=C(NC2CC(C2)C(=O)OC)N2N=C(C=CC2=N1)C(F)(F)F"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COCn1nccc1-c1nc2ccc(C(F)(F)F)nn2c1NC1CC(C(=O)OC)C1",
+        "mw": 424.38,
+        "logp": 2.58,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 424.38,
+        "predicted_mw": 424.38,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1912,
+      "z_id": "Z8878918510",
+      "yield_percent": 2.4,
+      "components": {
+        "A": "Nc1ncccc1N2CCCCC2",
+        "B": "Cc1cc(C=O)no1",
+        "C": "COCC[N+]#[C-]",
+        "Actual_Product": "COCCNC1=C(N=C2N1C=CC=C2N1CCCCC1)C1=NOC(C)=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COCCNc1c(-c2cc(C)on2)nc2c(N3CCCCC3)cccn12",
+        "mw": 355.44,
+        "logp": 3.35,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 355.44,
+        "predicted_mw": 355.44,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 337,
+      "z_id": "Z8786958823",
+      "yield_percent": 2.6,
+      "components": {
+        "A": "Nc1cc(C#N)ccn1",
+        "B": "O=Cc1cnsn1",
+        "C": "C[N+]#[C-]",
+        "Actual_Product": "CNC1=C(N=C2C=C(C=CN12)C#N)C1=NSN=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CNc1c(-c2cnsn2)nc2cc(C#N)ccn12",
+        "mw": 256.29,
+        "logp": 1.77,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 256.29,
+        "predicted_mw": 256.29,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 348,
+      "z_id": "Z8778277397",
+      "yield_percent": 2.6,
+      "components": {
+        "A": "Nc1nccn2ccnc12",
+        "B": "Cc1ccc(C=O)cc1",
+        "C": "[C-]#[N+]C1CCOCC1",
+        "Actual_Product": "CC1=CC=C(C=C1)C1=C(NC2CCOCC2)N2C=CN3C=CN=C3C2=N1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "Cc1ccc(-c2nc3c4nccn4ccn3c2NC2CCOCC2)cc1",
+        "mw": 347.42,
+        "logp": 3.55,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 347.42,
+        "predicted_mw": 347.42,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 351,
+      "z_id": "Z8810902957",
+      "yield_percent": 2.6,
+      "components": {
+        "A": "CC(O)c1cc(Br)cnc1N",
+        "B": "CCc1nn(C)cc1C=O",
+        "C": "[C-]#[N+]CC1CCCO1",
+        "Actual_Product": "CCC1=NN(C)C=C1C1=C(NCC2CCCO2)N2C=C(Br)C=C(C(C)O)C2=N1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CCc1nn(C)cc1-c1nc2c(C(C)O)cc(Br)cn2c1NCC1CCCO1",
+        "mw": 448.37,
+        "logp": 3.7,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 448.37,
+        "predicted_mw": 448.37,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 962,
+      "z_id": "Z8873684730",
+      "yield_percent": 2.6,
+      "components": {
+        "A": "Cl.COc1ccc(C)c(N)n1",
+        "B": "O=C[C@@H]1C[C@H]1C2OCCO2",
+        "C": "CC(C)(C)[N+]#[C-]",
+        "Actual_Product": "COC1=CC=C(C)C2=NC([C@@H]3C[C@H]3C3OCCO3)=C(NC(C)(C)C)N12"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COc1ccc(C)c2nc([C@@H]3C[C@H]3C3OCCO3)c(NC(C)(C)C)n12",
+        "mw": 345.44,
+        "logp": 3.34,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 345.44,
+        "predicted_mw": 345.44,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1900,
+      "z_id": "Z8855739229",
+      "yield_percent": 2.7,
+      "components": {
+        "A": "Nc1cnccn1",
+        "B": "CCn1nnc(C=O)n1",
+        "C": "C[N+]#[C-]",
+        "Actual_Product": "CCN1N=NC(=N1)C1=C(NC)N2C=CN=CC2=N1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CCn1nnc(-c2nc3cnccn3c2NC)n1",
+        "mw": 244.26,
+        "logp": 0.44,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 244.26,
+        "predicted_mw": 244.26,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 964,
+      "z_id": "Z8878918349",
+      "yield_percent": 2.8,
+      "components": {
+        "A": "CNC(=O)c1ccc(N)nc1",
+        "B": "Cc1cc(OCC#N)ccc1C=O",
+        "C": "[C-]#[N+]C1CCOC1",
+        "Actual_Product": "CNC(=O)C1=CN2C(NC3CCOC3)=C(N=C2C=C1)C1=C(C)C=C(OCC#N)C=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CNC(=O)c1ccc2nc(-c3ccc(OCC#N)cc3C)c(NC3CCOC3)n2c1",
+        "mw": 405.46,
+        "logp": 2.77,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 405.46,
+        "predicted_mw": 405.46,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1909,
+      "z_id": "Z8878918340",
+      "yield_percent": 2.8,
+      "components": {
+        "A": "Nc1ccc2nccn2n1",
+        "B": "Cc1noc(C)c1C=O",
+        "C": "COc1ccc([N+]#[C-])c(C)c1",
+        "Actual_Product": "COC1=CC(C)=C(NC2=C(N=C3C=CC4=NC=CN4N23)C2=C(C)ON=C2C)C=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COc1ccc(Nc2c(-c3c(C)noc3C)nc3ccc4nccn4n23)c(C)c1",
+        "mw": 388.43,
+        "logp": 4.31,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 388.43,
+        "predicted_mw": 388.43,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1913,
+      "z_id": "Z8873684604",
+      "yield_percent": 2.8,
+      "components": {
+        "A": "Cl.Nc1ccc(cn1)C(F)C(F)(F)F",
+        "B": "OCc1ccsc1C=O",
+        "C": "[C-]#[N+]C1CCOCC1",
+        "Actual_Product": "OCC1=C(SC=C1)C1=C(NC2CCOCC2)N2C=C(C=CC2=N1)C(F)C(F)(F)F"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "OCc1ccsc1-c1nc2ccc(C(F)C(F)(F)F)cn2c1NC1CCOCC1",
+        "mw": 429.44,
+        "logp": 4.72,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 429.44,
+        "predicted_mw": 429.44,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1914,
+      "z_id": "Z8878918783",
+      "yield_percent": 2.8,
+      "components": {
+        "A": "CC(=O)Nc1ccnc(N)c1",
+        "B": "CC1Oc2ccc(C=O)cc2NC1=O",
+        "C": "[C-]#[N+]C1COC1",
+        "Actual_Product": "CC1OC2=C(NC1=O)C=C(C=C2)C1=C(NC2COC2)N2C=CC(NC(C)=O)=CC2=N1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CC(=O)Nc1ccn2c(NC3COC3)c(-c3ccc4c(c3)NC(=O)C(C)O4)nc2c1",
+        "mw": 407.43,
+        "logp": 2.49,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 407.43,
+        "predicted_mw": 407.43,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1915,
+      "z_id": "Z8873685377",
+      "yield_percent": 2.8,
+      "components": {
+        "A": "CCc1cccc(N)n1",
+        "B": "CS(=O)(=O)c1coc(C=O)c1",
+        "C": "COC(=O)CCC([N+]#[C-])C(=O)OC",
+        "Actual_Product": "CCC1=CC=CC2=NC(C3=CC(=CO3)S(C)(=O)=O)=C(NC(CCC(=O)OC)C(=O)OC)N12"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CCc1cccc2nc(-c3cc(S(C)(=O)=O)co3)c(NC(CCC(=O)OC)C(=O)OC)n12",
+        "mw": 463.51,
+        "logp": 2.47,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 463.51,
+        "predicted_mw": 463.51,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 345,
+      "z_id": "Z8778278044",
+      "yield_percent": 3.0,
+      "components": {
+        "A": "Nc1cc(Cl)cnn1",
+        "B": "COc1ncc(C=O)cc1F",
+        "C": "CCCC[N+]#[C-]",
+        "Actual_Product": "CCCCNC1=C(N=C2C=C(Cl)C=NN12)C1=CC(F)=C(OC)N=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CCCCNc1c(-c2cnc(OC)c(F)c2)nc2cc(Cl)cnn12",
+        "mw": 349.8,
+        "logp": 3.8,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 349.8,
+        "predicted_mw": 349.8,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 960,
+      "z_id": "Z8846491866",
+      "yield_percent": 3.0,
+      "components": {
+        "A": "Nc1ccc(Cl)nn1",
+        "B": "COC(=O)c1cc(C=O)n(C)n1",
+        "C": "C[N+]#[C-]",
+        "Actual_Product": "CNC1=C(N=C2C=CC(Cl)=NN12)C1=CC(=NN1C)C(=O)OC"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CNc1c(-c2cc(C(=O)OC)nn2C)nc2ccc(Cl)nn12",
+        "mw": 320.74,
+        "logp": 1.61,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 320.74,
+        "predicted_mw": 320.74,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 965,
+      "z_id": "Z8810903014",
+      "yield_percent": 3.0,
+      "components": {
+        "A": "CC(C)(C)OC(=O)Nc1ccnc(N)c1",
+        "B": "COc1c(C=O)c(C)nn1C",
+        "C": "CCOCC[N+]#[C-]",
+        "Actual_Product": "CCOCCNC1=C(N=C2C=C(NC(=O)OC(C)(C)C)C=CN12)C1=C(OC)N(C)N=C1C"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CCOCCNc1c(-c2c(C)nn(C)c2OC)nc2cc(NC(=O)OC(C)(C)C)ccn12",
+        "mw": 444.54,
+        "logp": 3.85,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 444.54,
+        "predicted_mw": 444.54,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 966,
+      "z_id": "Z8878918631",
+      "yield_percent": 3.0,
+      "components": {
+        "A": "CCC(C)Oc1cccc(N)n1",
+        "B": "CP(=O)(C)c1ccc(C=O)cn1",
+        "C": "CCOC(=O)CC[N+]#[C-]",
+        "Actual_Product": "CCOC(=O)CCNC1=C(N=C2C=CC=C(OC(C)CC)N12)C1=CN=C(C=C1)P(C)(C)=O"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CCOC(=O)CCNc1c(-c2ccc(P(C)(C)=O)nc2)nc2cccc(OC(C)CC)n12",
+        "mw": 458.5,
+        "logp": 4.19,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 458.5,
+        "predicted_mw": 458.5,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1899,
+      "z_id": "Z8846491739",
+      "yield_percent": 3.1,
+      "components": {
+        "A": "Nc1ccc(Cl)nn1",
+        "B": "CCn1nnc(C=O)n1",
+        "C": "C[N+]#[C-]",
+        "Actual_Product": "CCN1N=NC(=N1)C1=C(NC)N2N=C(Cl)C=CC2=N1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CCn1nnc(-c2nc3ccc(Cl)nn3c2NC)n1",
+        "mw": 278.71,
+        "logp": 1.1,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 278.71,
+        "predicted_mw": 278.71,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 341,
+      "z_id": "Z8741907130",
+      "yield_percent": 3.2,
+      "components": {
+        "A": "Nc1nccnc1Cl",
+        "B": "O=CCCc1ccccc1",
+        "C": "COCC[N+]#[C-]",
+        "Actual_Product": "COCCNC1=C(CCC2=CC=CC=C2)N=C2N1C=CN=C2Cl"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COCCNc1c(CCc2ccccc2)nc2c(Cl)nccn12",
+        "mw": 330.82,
+        "logp": 3.23,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 330.82,
+        "predicted_mw": 330.82,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 344,
+      "z_id": "Z8781341778",
+      "yield_percent": 3.2,
+      "components": {
+        "A": "Nc1ccc(nn1)C2CC2",
+        "B": "CN(C)c1cc(C=O)ccn1",
+        "C": "FC(F)C[N+]#[C-]",
+        "Actual_Product": "CN(C)C1=NC=CC(=C1)C1=C(NCC(F)F)N2N=C(C=CC2=N1)C1CC1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CN(C)c1cc(-c2nc3ccc(C4CC4)nn3c2NCC(F)F)ccn1",
+        "mw": 358.4,
+        "logp": 3.41,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 358.4,
+        "predicted_mw": 358.4,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 346,
+      "z_id": "Z8784060117",
+      "yield_percent": 3.2,
+      "components": {
+        "A": "CC(C)(C)c1cccc(N)n1",
+        "B": "Fc1ccc(C=O)cc1",
+        "C": "[C-]#[N+]CC1CCOCC1",
+        "Actual_Product": "CC(C)(C)C1=CC=CC2=NC(=C(NCC3CCOCC3)N12)C1=CC=C(F)C=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CC(C)(C)c1cccc2nc(-c3ccc(F)cc3)c(NCC3CCOCC3)n12",
+        "mw": 381.5,
+        "logp": 5.28,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 381.5,
+        "predicted_mw": 381.5,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 347,
+      "z_id": "Z8810903047",
+      "yield_percent": 3.2,
+      "components": {
+        "A": "Nc1cnc(Br)c(Cl)n1",
+        "B": "Cc1nn(C)c(C)c1C=O",
+        "C": "CC(C)[N+]#[C-]",
+        "Actual_Product": "CC(C)NC1=C(N=C2C=NC(Br)=C(Cl)N12)C1=C(C)N(C)N=C1C"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "Cc1nn(C)c(C)c1-c1nc2cnc(Br)c(Cl)n2c1NC(C)C",
+        "mw": 397.71,
+        "logp": 3.98,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 397.71,
+        "predicted_mw": 397.71,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1910,
+      "z_id": "Z8873685450",
+      "yield_percent": 3.2,
+      "components": {
+        "A": "Cc1cc(N)ncc1Cl",
+        "B": "O=Cc1csc(C#N)c1",
+        "C": "COC(=O)CCC([N+]#[C-])C(=O)OC",
+        "Actual_Product": "COC(=O)CCC(NC1=C(N=C2C=C(C)C(Cl)=CN12)C1=CSC(=C1)C#N)C(=O)OC"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COC(=O)CCC(Nc1c(-c2csc(C#N)c2)nc2cc(C)c(Cl)cn12)C(=O)OC",
+        "mw": 446.92,
+        "logp": 3.8,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 446.92,
+        "predicted_mw": 446.92,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 338,
+      "z_id": "Z8798985058",
+      "yield_percent": 3.3,
+      "components": {
+        "A": "Cc1ccc(C#N)c(N)n1",
+        "B": "COc1cccc(C=O)n1",
+        "C": "COCC[N+]#[C-]",
+        "Actual_Product": "COCCNC1=C(N=C2N1C(C)=CC=C2C#N)C1=NC(OC)=CC=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COCCNc1c(-c2cccc(OC)n2)nc2c(C#N)ccc(C)n12",
+        "mw": 337.38,
+        "logp": 2.64,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 337.38,
+        "predicted_mw": 337.38,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 339,
+      "z_id": "Z8786958899",
+      "yield_percent": 3.4,
+      "components": {
+        "A": "Nc1cccnn1",
+        "B": "Cc1nc(C=O)nn1C",
+        "C": "COc1ccc(C[N+]#[C-])cc1",
+        "Actual_Product": "COC1=CC=C(CNC2=C(N=C3C=CC=NN23)C2=NN(C)C(C)=N2)C=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COc1ccc(CNc2c(-c3nc(C)n(C)n3)nc3cccnn23)cc1",
+        "mw": 349.4,
+        "logp": 2.45,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 349.4,
+        "predicted_mw": 349.4,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 349,
+      "z_id": "Z8810903023",
+      "yield_percent": 3.4,
+      "components": {
+        "A": "Nc1ccc(cn1)S(=O)(=O)O",
+        "B": "Cc1cc(ccc1C=O)n2ccnc2",
+        "C": "COC(=O)[C@@H]1CC[C@@H](C1)[N+]#[C-]",
+        "Actual_Product": "COC(=O)[C@@H]1CC[C@@H](C1)NC1=C(N=C2C=CC(=CN12)S(O)(=O)=O)C1=C(C)C=C(C=C1)N1C=CN=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COC(=O)[C@@H]1CC[C@H](Nc2c(-c3ccc(-n4ccnc4)cc3C)nc3ccc(S(=O)(=O)O)cn23)C1",
+        "mw": 495.56,
+        "logp": 3.5,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 495.56,
+        "predicted_mw": 495.56,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 963,
+      "z_id": "Z8855739253",
+      "yield_percent": 3.4,
+      "components": {
+        "A": "CP(=O)(C)c1cnc(N)cn1",
+        "B": "Brc1cnc2ccc(C=O)cc2c1",
+        "C": "CC(C)(C)[N+]#[C-]",
+        "Actual_Product": "CC(C)(C)NC1=C(N=C2C=NC(=CN12)P(C)(C)=O)C1=CC2=C(C=C1)N=CC(Br)=C2"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CC(C)(C)Nc1c(-c2ccc3ncc(Br)cc3c2)nc2cnc(P(C)(C)=O)cn12",
+        "mw": 472.33,
+        "logp": 5.17,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 472.33,
+        "predicted_mw": 472.33,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1905,
+      "z_id": "Z8878918321",
+      "yield_percent": 3.4,
+      "components": {
+        "A": "Cc1nc(Cl)cnc1N",
+        "B": "COC(=O)c1cccc(C=O)n1",
+        "C": "COCCC[N+]#[C-]",
+        "Actual_Product": "COCCCNC1=C(N=C2N1C=C(Cl)N=C2C)C1=NC(=CC=C1)C(=O)OC"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COCCCNc1c(-c2cccc(C(=O)OC)n2)nc2c(C)nc(Cl)cn12",
+        "mw": 389.84,
+        "logp": 2.99,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 389.84,
+        "predicted_mw": 389.84,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1911,
+      "z_id": "Z8878918533",
+      "yield_percent": 3.4,
+      "components": {
+        "A": "CN(C)Cc1ccnc(N)c1",
+        "B": "CC(C)(C)OC(=O)N1CC(C1)c2ncc(C=O)s2",
+        "C": "[C-]#[N+]C1CCOC1",
+        "Actual_Product": "CN(C)CC1=CC2=NC(C3=CN=C(S3)C3CN(C3)C(=O)OC(C)(C)C)=C(NC3CCOC3)N2C=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CN(C)Cc1ccn2c(NC3CCOC3)c(-c3cnc(C4CN(C(=O)OC(C)(C)C)C4)s3)nc2c1",
+        "mw": 498.65,
+        "logp": 4.05,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 498.65,
+        "predicted_mw": 498.65,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 336,
+      "z_id": "Z8803896959",
+      "yield_percent": 3.5,
+      "components": {
+        "A": "Cl.Nc1ncccc1C2CC2",
+        "B": "CCn1cnnc1C=O",
+        "C": "[C-]#[N+]C1CCOCC1",
+        "Actual_Product": "CCN1C=NN=C1C1=C(NC2CCOCC2)N2C=CC=C(C3CC3)C2=N1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CCn1cnnc1-c1nc2c(C3CC3)cccn2c1NC1CCOCC1",
+        "mw": 352.44,
+        "logp": 3.08,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 352.44,
+        "predicted_mw": 352.44,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1440,
+      "z_id": "Z8873684645",
+      "yield_percent": 3.5,
+      "components": {
+        "A": "CN(C)C(=O)c1cnc(N)c(Br)c1",
+        "B": "COCCCCC=O",
+        "C": "COC(=O)[C@@H]1CC[C@@H](C1)[N+]#[C-]",
+        "Actual_Product": "COCCCCC1=C(N[C@@H]2CC[C@@H](C2)C(=O)OC)N2C=C(C=C(Br)C2=N1)C(=O)N(C)C"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COCCCCc1nc2c(Br)cc(C(=O)N(C)C)cn2c1N[C@H]1CC[C@@H](C(=O)OC)C1",
+        "mw": 495.42,
+        "logp": 3.52,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 495.42,
+        "predicted_mw": 495.42,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 343,
+      "z_id": "Z8803896956",
+      "yield_percent": 3.6,
+      "components": {
+        "A": "Nc1cccnn1",
+        "B": "O=Cc1cnccn1",
+        "C": "Brc1cccc(C[N+]#[C-])c1",
+        "Actual_Product": "BrC1=CC(CNC2=C(N=C3C=CC=NN23)C2=NC=CN=C2)=CC=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "Brc1cccc(CNc2c(-c3cnccn3)nc3cccnn23)c1",
+        "mw": 381.24,
+        "logp": 3.56,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 381.24,
+        "predicted_mw": 381.24,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 961,
+      "z_id": "Z8878918448",
+      "yield_percent": 3.6,
+      "components": {
+        "A": "Cc1cnc(N)c(C)c1",
+        "B": "O=Cc1cccn2nccc12",
+        "C": "COC(=O)CCC([N+]#[C-])C(=O)OC",
+        "Actual_Product": "COC(=O)CCC(NC1=C(N=C2N1C=C(C)C=C2C)C1=CC=CN2N=CC=C12)C(=O)OC"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COC(=O)CCC(Nc1c(-c2cccn3nccc23)nc2c(C)cc(C)cn12)C(=O)OC",
+        "mw": 435.48,
+        "logp": 3.17,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 435.48,
+        "predicted_mw": 435.48,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1904,
+      "z_id": "Z8837933164",
+      "yield_percent": 3.7,
+      "components": {
+        "A": "Nc1cccnn1",
+        "B": "C=CCCn1cc(C=O)nn1",
+        "C": "COc1ccc(C[N+]#[C-])cc1",
+        "Actual_Product": "COC1=CC=C(CNC2=C(N=C3C=CC=NN23)C2=CN(CCC=C)N=N2)C=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "C=CCCn1cc(-c2nc3cccnn3c2NCc2ccc(OC)cc2)nn1",
+        "mw": 375.44,
+        "logp": 3.18,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 375.44,
+        "predicted_mw": 375.44,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 333,
+      "z_id": "Z8784060908",
+      "yield_percent": 3.9,
+      "components": {
+        "A": "Cn1c(=O)[nH]c2c(N)nccc12",
+        "B": "Cc1ccc(C=O)cc1",
+        "C": "[C-]#[N+]C1CCOCC1",
+        "Actual_Product": "CN1C(=O)NC2=C1C=CN1C(NC3CCOCC3)=C(N=C21)C1=CC=C(C)C=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "Cc1ccc(-c2nc3c4[nH]c(=O)n(C)c4ccn3c2NC2CCOCC2)cc1",
+        "mw": 377.45,
+        "logp": 3.08,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 377.45,
+        "predicted_mw": 377.45,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 342,
+      "z_id": "Z8798985052",
+      "yield_percent": 3.9,
+      "components": {
+        "A": "NC(=O)c1ccc(N)nn1",
+        "B": "COC(=O)c1ccc(C=O)n1C",
+        "C": "CCOC(=O)CC[N+]#[C-]",
+        "Actual_Product": "CCOC(=O)CCNC1=C(N=C2C=CC(=NN12)C(N)=O)C1=CC=C(N1C)C(=O)OC"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CCOC(=O)CCNc1c(-c2ccc(C(=O)OC)n2C)nc2ccc(C(N)=O)nn12",
+        "mw": 414.42,
+        "logp": 0.99,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 414.42,
+        "predicted_mw": 414.42,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 955,
+      "z_id": "Z8829498718",
+      "yield_percent": 3.9,
+      "components": {
+        "A": "NC(=O)c1ccc(N)nn1",
+        "B": "O=Cc1ccc(cc1)N2CCC2",
+        "C": "[C-]#[N+]CC1CCCO1",
+        "Actual_Product": "NC(=O)C1=NN2C(C=C1)=NC(=C2NCC1CCCO1)C1=CC=C(C=C1)N1CCC1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "NC(=O)c1ccc2nc(-c3ccc(N4CCC4)cc3)c(NCC3CCCO3)n2n1",
+        "mw": 392.46,
+        "logp": 2.3,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 392.46,
+        "predicted_mw": 392.46,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 957,
+      "z_id": "Z8878918553",
+      "yield_percent": 3.9,
+      "components": {
+        "A": "Nc1nccc2nccnc12",
+        "B": "Brc1nc(C=O)cs1",
+        "C": "COCC[N+]#[C-]",
+        "Actual_Product": "COCCNC1=C(N=C2N1C=CC1=C2N=CC=N1)C1=CSC(Br)=N1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COCCNc1c(-c2csc(Br)n2)nc2c3nccnc3ccn12",
+        "mw": 405.28,
+        "logp": 3.22,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 405.28,
+        "predicted_mw": 405.28,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1903,
+      "z_id": "Z8873684945",
+      "yield_percent": 3.9,
+      "components": {
+        "A": "Nc1cc(C#N)c(Cl)cn1",
+        "B": "O=Cc1noc2CCOCc12",
+        "C": "CC(=C)C[N+]#[C-]",
+        "Actual_Product": "CC(=C)CNC1=C(N=C2C=C(C#N)C(Cl)=CN12)C1=NOC2=C1COCC2"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "C=C(C)CNc1c(-c2noc3c2COCC3)nc2cc(C#N)c(Cl)cn12",
+        "mw": 369.81,
+        "logp": 3.58,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 369.81,
+        "predicted_mw": 369.81,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1906,
+      "z_id": "Z8873684642",
+      "yield_percent": 4.0,
+      "components": {
+        "A": "Cc1cn2nc(N)cc(C)c2n1",
+        "B": "O=Cc1cnns1",
+        "C": "CC(C)(C)OC(=O)N1CCC[C@H](C1)[N+]#[C-]",
+        "Actual_Product": "CC1=CN2N3C(NC4CCCN(C4)C(=O)OC(C)(C)C)=C(N=C3C=C(C)C2=N1)C1=CN=NS1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "Cc1cn2c(n1)c(C)cc1nc(-c3cnns3)c(N[C@@H]3CCCN(C(=O)OC(C)(C)C)C3)n12",
+        "mw": 468.59,
+        "logp": 3.93,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 468.59,
+        "predicted_mw": 468.59,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1907,
+      "z_id": "Z8878918562",
+      "yield_percent": 4.0,
+      "components": {
+        "A": "Nc1cc(F)c(Br)cn1",
+        "B": "O=Cc1csc(C#N)c1",
+        "C": "COC(=O)CCC([N+]#[C-])C(=O)OC",
+        "Actual_Product": "COC(=O)CCC(NC1=C(N=C2C=C(F)C(Br)=CN12)C1=CSC(=C1)C#N)C(=O)OC"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COC(=O)CCC(Nc1c(-c2csc(C#N)c2)nc2cc(F)c(Br)cn12)C(=O)OC",
+        "mw": 495.33,
+        "logp": 3.74,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 495.33,
+        "predicted_mw": 495.33,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 332,
+      "z_id": "Z8801681808",
+      "yield_percent": 4.1,
+      "components": {
+        "A": "Cc1cc(N)nnc1C",
+        "B": "O=Cc1cc(n[nH]1)c2ccccn2",
+        "C": "[C-]#[N+]C1CCOC1",
+        "Actual_Product": "CC1=CC2=NC(C3=CC(=NN3)C3=NC=CC=C3)=C(NC3CCOC3)N2N=C1C"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "Cc1cc2nc(-c3cc(-c4ccccn4)n[nH]3)c(NC3CCOC3)n2nc1C",
+        "mw": 375.44,
+        "logp": 3.0,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 375.44,
+        "predicted_mw": 375.44,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 335,
+      "z_id": "Z8797778731",
+      "yield_percent": 4.1,
+      "components": {
+        "A": "Nc1ncc(Br)c2cccnc12",
+        "B": "Cc1ccc(C=O)cc1",
+        "C": "CCCC[N+]#[C-]",
+        "Actual_Product": "CCCCNC1=C(N=C2N1C=C(Br)C1=C2N=CC=C1)C1=CC=C(C)C=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CCCCNc1c(-c2ccc(C)cc2)nc2c3ncccc3c(Br)cn12",
+        "mw": 409.33,
+        "logp": 5.83,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 409.33,
+        "predicted_mw": 409.33,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 959,
+      "z_id": "Z8878918842",
+      "yield_percent": 4.1,
+      "components": {
+        "A": "Nc1ccc2nccn2n1",
+        "B": "Cc1noc(C)c1C=O",
+        "C": "Brc1cccc(C[N+]#[C-])c1",
+        "Actual_Product": "CC1=C(C(C)=NO1)C1=C(NCC2=CC(Br)=CC=C2)N2N3C=CN=C3C=CC2=N1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "Cc1noc(C)c1-c1nc2ccc3nccn3n2c1NCc1cccc(Br)c1",
+        "mw": 437.3,
+        "logp": 4.63,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 437.3,
+        "predicted_mw": 437.3,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 329,
+      "z_id": "Z8784059519",
+      "yield_percent": 4.3,
+      "components": {
+        "A": "Cl.Nc1cc(ccn1)S(=O)(=O)N",
+        "B": "Cc1cc(C=O)ccn1",
+        "C": "COCC[N+]#[C-]",
+        "Actual_Product": "COCCNC1=C(N=C2C=C(C=CN12)S(N)(=O)=O)C1=CC(C)=NC=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COCCNc1c(-c2ccnc(C)c2)nc2cc(S(N)(=O)=O)ccn12",
+        "mw": 361.43,
+        "logp": 1.41,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 361.43,
+        "predicted_mw": 361.43,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 331,
+      "z_id": "Z8801681850",
+      "yield_percent": 4.3,
+      "components": {
+        "A": "Nc1ccc2nccn2n1",
+        "B": "CCn1cncc1C=O",
+        "C": "COc1ccc([N+]#[C-])c(C)c1",
+        "Actual_Product": "CCN1C=NC=C1C1=C(NC2=C(C)C=C(OC)C=C2)N2N3C=CN=C3C=CC2=N1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CCn1cncc1-c1nc2ccc3nccn3n2c1Nc1ccc(OC)cc1C",
+        "mw": 387.45,
+        "logp": 3.93,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 387.45,
+        "predicted_mw": 387.45,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 340,
+      "z_id": "Z8808559886",
+      "yield_percent": 4.3,
+      "components": {
+        "A": "Cl.COC(=O)c1cnc(N)cn1",
+        "B": "O=Cc1cc2OCCCCn2n1",
+        "C": "COC(=O)C1(CCCC1)[N+]#[C-]",
+        "Actual_Product": "COC(=O)C1=CN2C(NC3(CCCC3)C(=O)OC)=C(N=C2C=N1)C1=NN2CCCCOC2=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COC(=O)c1cn2c(NC3(C(=O)OC)CCCC3)c(-c3cc4n(n3)CCCCO4)nc2cn1",
+        "mw": 454.49,
+        "logp": 2.45,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 454.49,
+        "predicted_mw": 454.49,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 954,
+      "z_id": "Z8878918867",
+      "yield_percent": 4.3,
+      "components": {
+        "A": "Nc1ccc2ccc(=O)[nH]c2n1",
+        "B": "O=Cc1cncs1",
+        "C": "COC(=O)C1(CCCC1)[N+]#[C-]",
+        "Actual_Product": "COC(=O)C1(CCCC1)NC1=C(N=C2C=CC3=C(NC(=O)C=C3)N12)C1=CN=CS1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COC(=O)C1(Nc2c(-c3cncs3)nc3ccc4ccc(=O)[nH]c4n23)CCCC1",
+        "mw": 409.47,
+        "logp": 3.2,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 409.47,
+        "predicted_mw": 409.47,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 956,
+      "z_id": "Z8855739082",
+      "yield_percent": 4.3,
+      "components": {
+        "A": "Nc1nccnc1n2cccn2",
+        "B": "Cl.O=Cc1ccc(cc1)c2cn[nH]c2",
+        "C": "FC1(F)CC(C1)[N+]#[C-]",
+        "Actual_Product": "FC1(F)CC(C1)NC1=C(N=C2N1C=CN=C2N1C=CC=N1)C1=CC=C(C=C1)C1=CNN=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "FC1(F)CC(Nc2c(-c3ccc(-c4cn[nH]c4)cc3)nc3c(-n4cccn4)nccn23)C1",
+        "mw": 432.44,
+        "logp": 4.18,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 432.44,
+        "predicted_mw": 432.44,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 325,
+      "z_id": "Z8776690311",
+      "yield_percent": 4.5,
+      "components": {
+        "A": "COc1ccc(F)c(N)n1",
+        "B": "COc1ccc(C=O)cc1",
+        "C": "C[N+]#[C-]",
+        "Actual_Product": "CNC1=C(N=C2N1C(OC)=CC=C2F)C1=CC=C(OC)C=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CNc1c(-c2ccc(OC)cc2)nc2c(F)ccc(OC)n12",
+        "mw": 301.32,
+        "logp": 3.2,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 301.32,
+        "predicted_mw": 301.32,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 328,
+      "z_id": "Z8810903010",
+      "yield_percent": 4.5,
+      "components": {
+        "A": "Nc1nc(Cl)ccc1Cl",
+        "B": "O=CC1CCC2(COC2)OC1",
+        "C": "CC(C)[N+]#[C-]",
+        "Actual_Product": "CC(C)NC1=C(N=C2N1C(Cl)=CC=C2Cl)C1CCC2(COC2)OC1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CC(C)Nc1c(C2CCC3(COC3)OC2)nc2c(Cl)ccc(Cl)n12",
+        "mw": 370.28,
+        "logp": 4.12,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 370.28,
+        "predicted_mw": 370.28,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 958,
+      "z_id": "Z8878918772",
+      "yield_percent": 4.5,
+      "components": {
+        "A": "CP(=O)(C)c1ccc(N)nc1",
+        "B": "Fc1c(F)c(C=O)ccc1Br",
+        "C": "CSCC[N+]#[C-]",
+        "Actual_Product": "CSCCNC1=C(N=C2C=CC(=CN12)P(C)(C)=O)C1=C(F)C(F)=C(Br)C=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CSCCNc1c(-c2ccc(Br)c(F)c2F)nc2ccc(P(C)(C)=O)cn12",
+        "mw": 474.31,
+        "logp": 5.06,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 474.31,
+        "predicted_mw": 474.31,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1887,
+      "z_id": "Z8878918469",
+      "yield_percent": 4.5,
+      "components": {
+        "A": "Nc1ccccn1",
+        "B": "O=CCC1(CCOCC1)C#N",
+        "C": "C[N+]#[C-]",
+        "Actual_Product": "CNC1=C(CC2(CCOCC2)C#N)N=C2C=CC=CN12"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CNc1c(CC2(C#N)CCOCC2)nc2ccccn12",
+        "mw": 270.34,
+        "logp": 2.24,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 270.34,
+        "predicted_mw": 270.34,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1889,
+      "z_id": "Z8878918870",
+      "yield_percent": 4.5,
+      "components": {
+        "A": "Cc1cncc(N)n1",
+        "B": "Clc1csc(C=O)n1",
+        "C": "C[N+]#[C-]",
+        "Actual_Product": "CNC1=C(N=C2C=NC=C(C)N12)C1=NC(Cl)=CS1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CNc1c(-c2nc(Cl)cs2)nc2cncc(C)n12",
+        "mw": 279.76,
+        "logp": 2.86,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 279.76,
+        "predicted_mw": 279.76,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1897,
+      "z_id": "Z8873685365",
+      "yield_percent": 4.5,
+      "components": {
+        "A": "Cc1ccc(N)nn1",
+        "B": "O=Cc1cnccn1",
+        "C": "COc1ccc(C[N+]#[C-])cc1",
+        "Actual_Product": "COC1=CC=C(CNC2=C(N=C3C=CC(C)=NN23)C2=NC=CN=C2)C=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COc1ccc(CNc2c(-c3cnccn3)nc3ccc(C)nn23)cc1",
+        "mw": 346.39,
+        "logp": 3.12,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 346.39,
+        "predicted_mw": 346.39,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 327,
+      "z_id": "Z8778278037",
+      "yield_percent": 4.7,
+      "components": {
+        "A": "Cl.Cc1cc(Cl)nnc1N",
+        "B": "CSCCC=O",
+        "C": "[C-]#[N+]C1CCOCC1",
+        "Actual_Product": "CSCCC1=C(NC2CCOCC2)N2N=C(Cl)C=C(C)C2=N1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CSCCc1nc2c(C)cc(Cl)nn2c1NC1CCOCC1",
+        "mw": 340.88,
+        "logp": 3.19,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 340.88,
+        "predicted_mw": 340.88,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 330,
+      "z_id": "Z8801681831",
+      "yield_percent": 4.7,
+      "components": {
+        "A": "Nc1cnc(C#C)c(Cl)n1",
+        "B": "O=Cc1cn(nn1)C2CCOCC2",
+        "C": "CSCC[N+]#[C-]",
+        "Actual_Product": "CSCCNC1=C(N=C2C=NC(C#C)=C(Cl)N12)C1=CN(N=N1)C1CCOCC1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "C#Cc1ncc2nc(-c3cn(C4CCOCC4)nn3)c(NCCSC)n2c1Cl",
+        "mw": 417.93,
+        "logp": 2.75,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 417.93,
+        "predicted_mw": 417.93,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1898,
+      "z_id": "Z8837933161",
+      "yield_percent": 4.7,
+      "components": {
+        "A": "Nc1ccc2nccn2n1",
+        "B": "Cn1c(Cl)ncc1C=O",
+        "C": "COc1ccc(C[N+]#[C-])cc1",
+        "Actual_Product": "COC1=CC=C(CNC2=C(N=C3C=CC4=NC=CN4N23)C2=CN=C(Cl)N2C)C=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COc1ccc(CNc2c(-c3cnc(Cl)n3C)nc3ccc4nccn4n23)cc1",
+        "mw": 407.87,
+        "logp": 3.66,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 407.87,
+        "predicted_mw": 407.87,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1902,
+      "z_id": "Z8873685372",
+      "yield_percent": 4.7,
+      "components": {
+        "A": "Nc1cccc(Cc2ccccn2)n1",
+        "B": "Cn1ccnc1[C@@H]2OCCC[C@H]2C=O",
+        "C": "CC(C)[N+]#[C-]",
+        "Actual_Product": "CC(C)NC1=C(N=C2C=CC=C(CC3=NC=CC=C3)N12)[C@@H]1CCCO[C@H]1C1=NC=CN1C"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CC(C)Nc1c([C@@H]2CCCO[C@H]2c2nccn2C)nc2cccc(Cc3ccccn3)n12",
+        "mw": 430.56,
+        "logp": 4.51,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 430.56,
+        "predicted_mw": 430.56,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 581,
+      "z_id": "Z8878918808",
+      "yield_percent": 4.9,
+      "components": {
+        "A": "Nc1ccc(Cl)cn1",
+        "B": "O=Cc1cnc2c(C#N)cnn2c1",
+        "C": "COc1cccc(C[N+]#[C-])c111",
+        "Actual_Product": "COC1=CC(CNC2=C(N=C3C=CC(Cl)=CN23)C2=CN3N=CC(C#N)=C3N=C2)=CC=C1"
+      },
+      "prediction": {
+        "status": "反应物解析失败",
+        "success": false
+      }
+    },
+    {
+      "entry": 334,
+      "z_id": "Z8803896931",
+      "yield_percent": 5.1,
+      "components": {
+        "A": "CC(C)(C)c1ccc(N)nn1",
+        "B": "CP(=O)(C)c1ccc(C=O)cc1",
+        "C": "CC(C)(C)OC(=O)NCCC[N+]#[C-]",
+        "Actual_Product": "CC(C)(C)OC(=O)NCCCNC1=C(N=C2C=CC(=NN12)C(C)(C)C)C1=CC=C(C=C1)P(C)(C)=O"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CC(C)(C)OC(=O)NCCCNc1c(-c2ccc(P(C)(C)=O)cc2)nc2ccc(C(C)(C)C)nn12",
+        "mw": 499.6,
+        "logp": 5.27,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 499.6,
+        "predicted_mw": 499.6,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1161,
+      "z_id": "Z8878918418",
+      "yield_percent": 5.1,
+      "components": {
+        "A": "Cl.Nc1cc(ccn1)c2ncon2",
+        "B": "O=Cc1cn(nn1)C2CCOCC2",
+        "C": "[C-]#[N+]C1CCOCC110",
+        "Actual_Product": "C1CC(CCO1)NC1=C(N=C2C=C(C=CN12)C1=NOC=N1)C1=CN(N=N1)C1CCOCC1"
+      },
+      "prediction": {
+        "status": "反应物解析失败",
+        "success": false
+      }
+    },
+    {
+      "entry": 950,
+      "z_id": "Z8878918795",
+      "yield_percent": 5.3,
+      "components": {
+        "A": "Nc1ccc(F)nn1",
+        "B": "CCn1ncc(C)c1C=O",
+        "C": "CC(C)(C)OC(=O)N1CCC(CC1)[N+]#[C-]",
+        "Actual_Product": "CCN1N=CC(C)=C1C1=C(NC2CCN(CC2)C(=O)OC(C)(C)C)N2N=C(F)C=CC2=N1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CCn1ncc(C)c1-c1nc2ccc(F)nn2c1NC1CCN(C(=O)OC(C)(C)C)CC1",
+        "mw": 443.53,
+        "logp": 3.87,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 443.53,
+        "predicted_mw": 443.53,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1895,
+      "z_id": "Z8873684831",
+      "yield_percent": 5.3,
+      "components": {
+        "A": "CC(=O)Nc1ccnc(N)c1",
+        "B": "O=Cc1nnc2CCCCn12",
+        "C": "[C-]#[N+]C1CCC1",
+        "Actual_Product": "CC(=O)NC1=CC2=NC(=C(NC3CCC3)N2C=C1)C1=NN=C2CCCCN12"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CC(=O)Nc1ccn2c(NC3CCC3)c(-c3nnc4n3CCCC4)nc2c1",
+        "mw": 365.44,
+        "logp": 2.85,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 365.44,
+        "predicted_mw": 365.44,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1901,
+      "z_id": "Z8878918405",
+      "yield_percent": 5.3,
+      "components": {
+        "A": "Cc1cnc(N)c(C)c1",
+        "B": "COC(=O)c1cc(OC)cc(C=O)n1",
+        "C": "COC(=O)CCC([N+]#[C-])C(=O)OC",
+        "Actual_Product": "COC(=O)CCC(NC1=C(N=C2N1C=C(C)C=C2C)C1=NC(=CC(OC)=C1)C(=O)OC)C(=O)OC"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COC(=O)CCC(Nc1c(-c2cc(OC)cc(C(=O)OC)n2)nc2c(C)cc(C)cn12)C(=O)OC",
+        "mw": 484.51,
+        "logp": 2.72,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 484.51,
+        "predicted_mw": 484.51,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 948,
+      "z_id": "Z8778278034",
+      "yield_percent": 5.5,
+      "components": {
+        "A": "COC(=O)c1ccc(N)nn1",
+        "B": "Clc1cccnc1C=O",
+        "C": "Fc1ccc(C[N+]#[C-])cc1",
+        "Actual_Product": "COC(=O)C1=NN2C(C=C1)=NC(=C2NCC1=CC=C(F)C=C1)C1=C(Cl)C=CC=N1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COC(=O)c1ccc2nc(-c3ncccc3Cl)c(NCc3ccc(F)cc3)n2n1",
+        "mw": 411.82,
+        "logp": 3.98,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 411.82,
+        "predicted_mw": 411.82,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 951,
+      "z_id": "Z8878918649",
+      "yield_percent": 5.5,
+      "components": {
+        "A": "COC(=O)c1ccc(N)nc1",
+        "B": "O=Cc1cnc(nc1)N2CCOCC2",
+        "C": "COc1cccc([N+]#[C-])c1",
+        "Actual_Product": "COC(=O)C1=CN2C(C=C1)=NC(=C2NC1=CC(OC)=CC=C1)C1=CN=C(N=C1)N1CCOCC1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COC(=O)c1ccc2nc(-c3cnc(N4CCOCC4)nc3)c(Nc3cccc(OC)c3)n2c1",
+        "mw": 460.49,
+        "logp": 3.17,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 460.49,
+        "predicted_mw": 460.49,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 952,
+      "z_id": "Z8854581160",
+      "yield_percent": 5.5,
+      "components": {
+        "A": "Nc1cccc(C#C)n1",
+        "B": "Brc1ncsc1C=O",
+        "C": "COC(=O)CCC([N+]#[C-])C(=O)OC",
+        "Actual_Product": "COC(=O)CCC(NC1=C(N=C2C=CC=C(C#C)N12)C1=C(Br)N=CS1)C(=O)OC"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "C#Cc1cccc2nc(-c3scnc3Br)c(NC(CCC(=O)OC)C(=O)OC)n12",
+        "mw": 477.34,
+        "logp": 3.11,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 477.34,
+        "predicted_mw": 477.34,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 953,
+      "z_id": "Z8878918786",
+      "yield_percent": 5.5,
+      "components": {
+        "A": "Nc1nccc2nccnc12",
+        "B": "COc1c(F)c(I)ccc1C=O",
+        "C": "COCC[N+]#[C-]",
+        "Actual_Product": "COCCNC1=C(N=C2N1C=CC1=C2N=CC=N1)C1=C(OC)C(F)=C(I)C=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COCCNc1c(-c2ccc(I)c(F)c2OC)nc2c3nccnc3ccn12",
+        "mw": 493.28,
+        "logp": 3.76,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 493.28,
+        "predicted_mw": 493.28,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 946,
+      "z_id": "Z8878918470",
+      "yield_percent": 5.6,
+      "components": {
+        "A": "Nc1ccc2nccn2n1",
+        "B": "Clc1ncsc1C=O",
+        "C": "COc1ccc([N+]#[C-])c(C)c1",
+        "Actual_Product": "COC1=CC(C)=C(NC2=C(N=C3C=CC4=NC=CN4N23)C2=C(Cl)N=CS2)C=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COc1ccc(Nc2c(-c3scnc3Cl)nc3ccc4nccn4n23)c(C)c1",
+        "mw": 410.89,
+        "logp": 4.82,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 410.89,
+        "predicted_mw": 410.89,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 311,
+      "z_id": "Z8778277313",
+      "yield_percent": 5.8,
+      "components": {
+        "A": "Nc1nccnc1C#C",
+        "B": "O=Cc1ccsc1",
+        "C": "CCCC[N+]#[C-]",
+        "Actual_Product": "CCCCNC1=C(N=C2N1C=CN=C2C#C)C1=CSC=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "C#Cc1nccn2c(NCCCC)c(-c3ccsc3)nc12",
+        "mw": 296.4,
+        "logp": 3.65,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 296.4,
+        "predicted_mw": 296.4,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1877,
+      "z_id": "Z8837933139",
+      "yield_percent": 5.8,
+      "components": {
+        "A": "Cc1cncc(N)n1",
+        "B": "CCc1nn(C)c(C=O)c1Cl",
+        "C": "C[N+]#[C-]",
+        "Actual_Product": "CCC1=NN(C)C(=C1Cl)C1=C(NC)N2C(C=NC=C2C)=N1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CCc1nn(C)c(-c2nc3cncc(C)n3c2NC)c1Cl",
+        "mw": 304.79,
+        "logp": 2.7,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 304.79,
+        "predicted_mw": 304.79,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1885,
+      "z_id": "Z8873684784",
+      "yield_percent": 5.8,
+      "components": {
+        "A": "CS(=O)(=O)c1ccc(N)nc1",
+        "B": "Cc1coc(C=O)n1",
+        "C": "CC(=C)C[N+]#[C-]",
+        "Actual_Product": "CC(=C)CNC1=C(N=C2C=CC(=CN12)S(C)(=O)=O)C1=NC(C)=CO1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "C=C(C)CNc1c(-c2nc(C)co2)nc2ccc(S(C)(=O)=O)cn12",
+        "mw": 346.41,
+        "logp": 2.69,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 346.41,
+        "predicted_mw": 346.41,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 314,
+      "z_id": "Z8741907033",
+      "yield_percent": 6.0,
+      "components": {
+        "A": "COc1ccc(N)nn1",
+        "B": "O=Cc1ccccc1",
+        "C": "[C-]#[N+]c1ccccc1",
+        "Actual_Product": "COC1=NN2C(C=C1)=NC(=C2NC1=CC=CC=C1)C1=CC=CC=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COc1ccc2nc(-c3ccccc3)c(Nc3ccccc3)n2n1",
+        "mw": 316.36,
+        "logp": 4.15,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 316.36,
+        "predicted_mw": 316.36,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 942,
+      "z_id": "Z8855619753",
+      "yield_percent": 6.0,
+      "components": {
+        "A": "NC(=O)c1ccnc(N)c1",
+        "B": "O=CC1CCOC2(CCC2)C1",
+        "C": "CC(C)(C)[N+]#[C-]",
+        "Actual_Product": "CC(C)(C)NC1=C(N=C2C=C(C=CN12)C(N)=O)C1CCOC2(CCC2)C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CC(C)(C)Nc1c(C2CCOC3(CCC3)C2)nc2cc(C(N)=O)ccn12",
+        "mw": 356.47,
+        "logp": 3.46,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 356.47,
+        "predicted_mw": 356.47,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1892,
+      "z_id": "Z8855739267",
+      "yield_percent": 6.0,
+      "components": {
+        "A": "Nc1ccc2nccn2n1",
+        "B": "Cn1c(Cl)ncc1C=O",
+        "C": "COc1ccc([N+]#[C-])c(C)c1",
+        "Actual_Product": "COC1=CC(C)=C(NC2=C(N=C3C=CC4=NC=CN4N23)C2=CN=C(Cl)N2C)C=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COc1ccc(Nc2c(-c3cnc(Cl)n3C)nc3ccc4nccn4n23)c(C)c1",
+        "mw": 407.87,
+        "logp": 4.1,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 407.87,
+        "predicted_mw": 407.87,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 949,
+      "z_id": "Z8854581134",
+      "yield_percent": 6.1,
+      "components": {
+        "A": "COC(=O)c1cncc(N)n1",
+        "B": "COC(=O)c1cc(C=O)cc(c1)[N+](=O)[O-]",
+        "C": "COC(=O)C1(CCCC1)[N+]#[C-]",
+        "Actual_Product": "COC(=O)C1=CC(=CC(=C1)[N+]([O-])=O)C1=C(NC2(CCCC2)C(=O)OC)N2C(C=NC=C2C(=O)OC)=N1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COC(=O)c1cc(-c2nc3cncc(C(=O)OC)n3c2NC2(C(=O)OC)CCCC2)cc([N+](=O)[O-])c1",
+        "mw": 497.46,
+        "logp": 2.78,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 497.46,
+        "predicted_mw": 497.46,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 319,
+      "z_id": "Z8776690334",
+      "yield_percent": 6.2,
+      "components": {
+        "A": "Nc1cccnn1",
+        "B": "COc1ccc(C=O)cc1",
+        "C": "COc1ccc(C[N+]#[C-])cc1",
+        "Actual_Product": "COC1=CC=C(CNC2=C(N=C3C=CC=NN23)C2=CC=C(OC)C=C2)C=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COc1ccc(CNc2c(-c3ccc(OC)cc3)nc3cccnn23)cc1",
+        "mw": 360.42,
+        "logp": 4.03,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 360.42,
+        "predicted_mw": 360.42,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 947,
+      "z_id": "Z8873685392",
+      "yield_percent": 6.2,
+      "components": {
+        "A": "Cl.Nc1cc(ccn1)c2ncon2",
+        "B": "FC(F)(F)Cn1ccc(C=O)n1",
+        "C": "Fc1ccc(C[N+]#[C-])cc1",
+        "Actual_Product": "FC1=CC=C(CNC2=C(N=C3C=C(C=CN23)C2=NOC=N2)C2=NN(CC(F)(F)F)C=C2)C=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "Fc1ccc(CNc2c(-c3ccn(CC(F)(F)F)n3)nc3cc(-c4ncon4)ccn23)cc1",
+        "mw": 457.39,
+        "logp": 4.56,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 457.39,
+        "predicted_mw": 457.39,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1896,
+      "z_id": "Z8829498789",
+      "yield_percent": 6.2,
+      "components": {
+        "A": "Nc1ccc(cn1)S(=O)(=O)N",
+        "B": "Cn1ncc(Br)c1C=O",
+        "C": "[C-]#[N+]CC1CCCO1",
+        "Actual_Product": "CN1N=CC(Br)=C1C1=C(NCC2CCCO2)N2C=C(C=CC2=N1)S(N)(=O)=O"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "Cn1ncc(Br)c1-c1nc2ccc(S(N)(=O)=O)cn2c1NCC1CCCO1",
+        "mw": 455.34,
+        "logp": 1.74,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 455.34,
+        "predicted_mw": 455.34,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 934,
+      "z_id": "Z8849597841",
+      "yield_percent": 6.3,
+      "components": {
+        "A": "Cc1cncc(N)n1",
+        "B": "O=Cc1cccc2ncnn12",
+        "C": "C[N+]#[C-]",
+        "Actual_Product": "CNC1=C(N=C2C=NC=C(C)N12)C1=CC=CC2=NC=NN12"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CNc1c(-c2cccc3ncnn23)nc2cncc(C)n12",
+        "mw": 279.31,
+        "logp": 1.79,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 279.31,
+        "predicted_mw": 279.31,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1880,
+      "z_id": "Z8878918648",
+      "yield_percent": 6.3,
+      "components": {
+        "A": "Nc1cccnn1",
+        "B": "Cc1noc(C)c1C=O",
+        "C": "COc1ccc([N+]#[C-])c(C)c1",
+        "Actual_Product": "COC1=CC(C)=C(NC2=C(N=C3C=CC=NN23)C2=C(C)ON=C2C)C=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COc1ccc(Nc2c(-c3c(C)noc3C)nc3cccnn23)c(C)c1",
+        "mw": 349.39,
+        "logp": 4.06,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 349.39,
+        "predicted_mw": 349.39,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 316,
+      "z_id": "Z8798985035",
+      "yield_percent": 6.4,
+      "components": {
+        "A": "Cc1ccc(N)nn1",
+        "B": "O=Cc1cnsn1",
+        "C": "COc1ccc(C[N+]#[C-])cc1",
+        "Actual_Product": "COC1=CC=C(CNC2=C(N=C3C=CC(C)=NN23)C2=NSN=C2)C=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COc1ccc(CNc2c(-c3cnsn3)nc3ccc(C)nn23)cc1",
+        "mw": 352.42,
+        "logp": 3.18,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 352.42,
+        "predicted_mw": 352.42,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 326,
+      "z_id": "Z8798985054",
+      "yield_percent": 6.4,
+      "components": {
+        "A": "COc1cc(Br)c(C)nc1N",
+        "B": "O=CCCC1(CC1)C#N",
+        "C": "[C-]#[N+]CC1CCOC1",
+        "Actual_Product": "COC1=CC(Br)=C(C)N2C(NCC3CCOC3)=C(CCC3(CC3)C#N)N=C12"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "COc1cc(Br)c(C)n2c(NCC3CCOC3)c(CCC3(C#N)CC3)nc12",
+        "mw": 433.35,
+        "logp": 4.1,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 433.35,
+        "predicted_mw": 433.35,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 945,
+      "z_id": "Z8878918439",
+      "yield_percent": 6.4,
+      "components": {
+        "A": "CC(C)CS(=O)(=O)c1ccc(N)nc1",
+        "B": "Cc1nnc(C=O)[nH]1",
+        "C": "Fc1ccc([N+]#[C-])cc1",
+        "Actual_Product": "CC(C)CS(=O)(=O)C1=CN2C(C=C1)=NC(C1=NN=C(C)N1)=C2NC1=CC=C(F)C=C1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "Cc1nnc(-c2nc3ccc(S(=O)(=O)CC(C)C)cn3c2Nc2ccc(F)cc2)[nH]1",
+        "mw": 428.49,
+        "logp": 3.74,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 428.49,
+        "predicted_mw": 428.49,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    },
+    {
+      "entry": 1886,
+      "z_id": "Z8878918793",
+      "yield_percent": 6.4,
+      "components": {
+        "A": "CP(=O)(C)c1cccc(N)n1",
+        "B": "CC(C)c1ncc(C=O)n1C",
+        "C": "CC(C)(C)[N+]#[C-]",
+        "Actual_Product": "CC(C)C1=NC=C(N1C)C1=C(NC(C)(C)C)N2C(C=CC=C2P(C)(C)=O)=N1"
+      },
+      "prediction": {
+        "status": "成功",
+        "smiles": "CC(C)c1ncc(-c2nc3cccc(P(C)(C)=O)n3c2NC(C)(C)C)n1C",
+        "mw": 387.47,
+        "logp": 4.32,
+        "core_validated": true
+      },
+      "comparison": {
+        "actual_mw": 387.47,
+        "predicted_mw": 387.47,
+        "mw_diff": 0.0,
+        "mw_error_percent": 0.0,
+        "mw_match": true,
+        "tanimoto_similarity": 1.0,
+        "match_type": "Exact Match"
+      }
+    }
+  ]
+}

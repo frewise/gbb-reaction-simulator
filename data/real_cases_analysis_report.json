@@ -1,0 +1,1117 @@
+{
+  "test_info": {
+    "timestamp": "2026-03-04T11:43:01.648345",
+    "data_source": "/root/.openclaw/workspace/gbb-reaction/data/real_cases.csv",
+    "total_cases": 2052,
+    "rdkit_version": "2022.09.5"
+  },
+  "data_summary": {
+    "total_reactions": 2052,
+    "synthesizable": 1505,
+    "average_yield": 28.214752436647174,
+    "min_yield": 0.0,
+    "max_yield": 99.6,
+    "median_yield": 27.1
+  },
+  "parsing_stats": {
+    "A": 10,
+    "B": 10,
+    "C": 9,
+    "P": 10
+  },
+  "sample_cases": [
+    {
+      "entry": 1163,
+      "z_id": "Z8873684644",
+      "yield_percent": 0.6,
+      "components": {
+        "Component_A": {
+          "smiles": "Cc1ccc(N)nc1Cl",
+          "valid": true,
+          "properties": {
+            "MW": 142.59,
+            "LogP": 1.63,
+            "HBA": 2,
+            "HBD": 1,
+            "TPSA": 38.91,
+            "RotatableBonds": 0
+          }
+        },
+        "Component_B": {
+          "smiles": "COc1cc(C)ncc1C=O",
+          "valid": true,
+          "properties": {
+            "MW": 151.16,
+            "LogP": 1.21,
+            "HBA": 3,
+            "HBD": 0,
+            "TPSA": 39.19,
+            "RotatableBonds": 2
+          }
+        },
+        "Component_C": {
+          "smiles": "COC(=O)CCC([N+]#[C-])C(=O)OC10",
+          "valid": false,
+          "error": "COC(=O)CCC([N+]#[C-])C(=O)OC10"
+        },
+        "Product": {
+          "smiles": "COC(=O)CCC(NC1=C(N=C2C=CC(C)=C(Cl)N12)C1=C(OC)C=C(C)N=C1)C(=O)OC",
+          "valid": true,
+          "properties": {
+            "MW": 460.92,
+            "LogP": 3.58,
+            "HBA": 9,
+            "HBD": 1,
+            "TPSA": 104.05,
+            "RotatableBonds": 8
+          }
+        }
+      }
+    },
+    {
+      "entry": 357,
+      "z_id": "Z8803896930",
+      "yield_percent": 1.4,
+      "components": {
+        "Component_A": {
+          "smiles": "Nc1ccc(cn1)S(=O)(=O)O",
+          "valid": true,
+          "properties": {
+            "MW": 174.18,
+            "LogP": -0.09,
+            "HBA": 4,
+            "HBD": 2,
+            "TPSA": 93.28,
+            "RotatableBonds": 1
+          }
+        },
+        "Component_B": {
+          "smiles": "Cc1ccc(C=O)cc1F",
+          "valid": true,
+          "properties": {
+            "MW": 138.14,
+            "LogP": 1.95,
+            "HBA": 1,
+            "HBD": 0,
+            "TPSA": 17.07,
+            "RotatableBonds": 1
+          }
+        },
+        "Component_C": {
+          "smiles": "COC(=O)[C@@H]1CC[C@@H](C1)[N+]#[C-]",
+          "valid": true,
+          "properties": {
+            "MW": 153.18,
+            "LogP": 1.25,
+            "HBA": 2,
+            "HBD": 0,
+            "TPSA": 30.66,
+            "RotatableBonds": 1
+          }
+        },
+        "Product": {
+          "smiles": "COC(=O)[C@@H]1CC[C@@H](C1)NC1=C(N=C2C=CC(=CN12)S(O)(=O)=O)C1=CC(F)=C(C)C=C1",
+          "valid": true,
+          "properties": {
+            "MW": 447.49,
+            "LogP": 3.45,
+            "HBA": 7,
+            "HBD": 2,
+            "TPSA": 110.0,
+            "RotatableBonds": 5
+          }
+        }
+      }
+    },
+    {
+      "entry": 968,
+      "z_id": "Z8810903047",
+      "yield_percent": 1.4,
+      "components": {
+        "Component_A": {
+          "smiles": "Nc1cnc(Br)c(Cl)n1",
+          "valid": true,
+          "properties": {
+            "MW": 208.45,
+            "LogP": 1.47,
+            "HBA": 3,
+            "HBD": 1,
+            "TPSA": 51.8,
+            "RotatableBonds": 0
+          }
+        },
+        "Component_B": {
+          "smiles": "Cc1nn(C)c(C)c1C=O",
+          "valid": true,
+          "properties": {
+            "MW": 138.17,
+            "LogP": 0.85,
+            "HBA": 3,
+            "HBD": 0,
+            "TPSA": 34.89,
+            "RotatableBonds": 1
+          }
+        },
+        "Component_C": {
+          "smiles": "CC(C)[N+]#[C-]",
+          "valid": true,
+          "properties": {
+            "MW": 69.11,
+            "LogP": 1.31,
+            "HBA": 0,
+            "HBD": 0,
+            "TPSA": 4.36,
+            "RotatableBonds": 0
+          }
+        },
+        "Product": {
+          "smiles": "CC(C)NC1=C(N=C2C=NC(Br)=C(Cl)N12)C1=C(C)N(C)N=C1C",
+          "valid": true,
+          "properties": {
+            "MW": 397.71,
+            "LogP": 3.98,
+            "HBA": 6,
+            "HBD": 1,
+            "TPSA": 60.04,
+            "RotatableBonds": 3
+          }
+        }
+      }
+    },
+    {
+      "entry": 356,
+      "z_id": "Z8808559870",
+      "yield_percent": 1.6,
+      "components": {
+        "Component_A": {
+          "smiles": "COCCN(C)c1ccc(N)nc1",
+          "valid": true,
+          "properties": {
+            "MW": 181.24,
+            "LogP": 0.75,
+            "HBA": 4,
+            "HBD": 1,
+            "TPSA": 51.38,
+            "RotatableBonds": 4
+          }
+        },
+        "Component_B": {
+          "smiles": "CC#CCCCC=O",
+          "valid": true,
+          "properties": {
+            "MW": 110.16,
+            "LogP": 1.38,
+            "HBA": 1,
+            "HBD": 0,
+            "TPSA": 17.07,
+            "RotatableBonds": 3
+          }
+        },
+        "Component_C": {
+          "smiles": "COC(=O)CCC([N+]#[C-])C(=O)OC",
+          "valid": true,
+          "properties": {
+            "MW": 185.18,
+            "LogP": 0.4,
+            "HBA": 4,
+            "HBD": 0,
+            "TPSA": 56.96,
+            "RotatableBonds": 4
+          }
+        },
+        "Product": {
+          "smiles": "COCCN(C)C1=CN2C(C=C1)=NC(CCCC#CC)=C2NC(CCC(=O)OC)C(=O)OC",
+          "valid": true,
+          "properties": {
+            "MW": 458.56,
+            "LogP": 2.67,
+            "HBA": 9,
+            "HBD": 1,
+            "TPSA": 94.4,
+            "RotatableBonds": 13
+          }
+        }
+      }
+    },
+    {
+      "entry": 1920,
+      "z_id": "Z8878918513",
+      "yield_percent": 1.6,
+      "components": {
+        "Component_A": {
+          "smiles": "Nc1cc(C#N)c(Cl)cn1",
+          "valid": true,
+          "properties": {
+            "MW": 153.57,
+            "LogP": 1.19,
+            "HBA": 3,
+            "HBD": 1,
+            "TPSA": 62.7,
+            "RotatableBonds": 0
+          }
+        },
+        "Component_B": {
+          "smiles": "O=Cc1cnc(s1)c2ccncc2",
+          "valid": true,
+          "properties": {
+            "MW": 190.23,
+            "LogP": 2.02,
+            "HBA": 4,
+            "HBD": 0,
+            "TPSA": 42.85,
+            "RotatableBonds": 2
+          }
+        },
+        "Component_C": {
+          "smiles": "[C-]#[N+]CC1CCOC1",
+          "valid": true,
+          "properties": {
+            "MW": 111.14,
+            "LogP": 0.94,
+            "HBA": 1,
+            "HBD": 0,
+            "TPSA": 13.59,
+            "RotatableBonds": 1
+          }
+        },
+        "Product": {
+          "smiles": "ClC1=CN2C(NCC3CCOC3)=C(N=C2C=C1C#N)C1=CN=C(S1)C1=CC=NC=C1",
+          "valid": true,
+          "properties": {
+            "MW": 436.93,
+            "LogP": 4.49,
+            "HBA": 8,
+            "HBD": 1,
+            "TPSA": 88.13,
+            "RotatableBonds": 5
+          }
+        }
+      }
+    },
+    {
+      "entry": 353,
+      "z_id": "Z8778277287",
+      "yield_percent": 1.8,
+      "components": {
+        "Component_A": {
+          "smiles": "COc1ccnnc1N",
+          "valid": true,
+          "properties": {
+            "MW": 125.13,
+            "LogP": 0.07,
+            "HBA": 4,
+            "HBD": 1,
+            "TPSA": 61.03,
+            "RotatableBonds": 1
+          }
+        },
+        "Component_B": {
+          "smiles": "O=Cc1ccccn1",
+          "valid": true,
+          "properties": {
+            "MW": 107.11,
+            "LogP": 0.89,
+            "HBA": 2,
+            "HBD": 0,
+            "TPSA": 29.96,
+            "RotatableBonds": 1
+          }
+        },
+        "Component_C": {
+          "smiles": "[C-]#[N+]CC1CCOCC1",
+          "valid": true,
+          "properties": {
+            "MW": 125.17,
+            "LogP": 1.33,
+            "HBA": 1,
+            "HBD": 0,
+            "TPSA": 13.59,
+            "RotatableBonds": 1
+          }
+        },
+        "Product": {
+          "smiles": "COC1=CC=NN2C(NCC3CCOCC3)=C(N=C12)C1=NC=CC=C1",
+          "valid": true,
+          "properties": {
+            "MW": 339.4,
+            "LogP": 2.64,
+            "HBA": 7,
+            "HBD": 1,
+            "TPSA": 73.57,
+            "RotatableBonds": 5
+          }
+        }
+      }
+    },
+    {
+      "entry": 1917,
+      "z_id": "Z8878918400",
+      "yield_percent": 1.8,
+      "components": {
+        "Component_A": {
+          "smiles": "Nc1ccc(Cl)c(Br)n1",
+          "valid": true,
+          "properties": {
+            "MW": 207.46,
+            "LogP": 2.08,
+            "HBA": 2,
+            "HBD": 1,
+            "TPSA": 38.91,
+            "RotatableBonds": 0
+          }
+        },
+        "Component_B": {
+          "smiles": "O=CCCN1CCOC1=O",
+          "valid": true,
+          "properties": {
+            "MW": 143.14,
+            "LogP": 0.03,
+            "HBA": 3,
+            "HBD": 0,
+            "TPSA": 46.61,
+            "RotatableBonds": 3
+          }
+        },
+        "Component_C": {
+          "smiles": "CC(C)[N+]#[C-]",
+          "valid": true,
+          "properties": {
+            "MW": 69.11,
+            "LogP": 1.31,
+            "HBA": 0,
+            "HBD": 0,
+            "TPSA": 4.36,
+            "RotatableBonds": 0
+          }
+        },
+        "Product": {
+          "smiles": "CC(C)NC1=C(CCN2CCOC2=O)N=C2C=CC(Cl)=C(Br)N12",
+          "valid": true,
+          "properties": {
+            "MW": 401.69,
+            "LogP": 3.57,
+            "HBA": 5,
+            "HBD": 1,
+            "TPSA": 58.87,
+            "RotatableBonds": 5
+          }
+        }
+      }
+    },
+    {
+      "entry": 1918,
+      "z_id": "Z8873685448",
+      "yield_percent": 1.8,
+      "components": {
+        "Component_A": {
+          "smiles": "Nc1ncccc1N2CCOCC2",
+          "valid": true,
+          "properties": {
+            "MW": 179.22,
+            "LogP": 0.5,
+            "HBA": 4,
+            "HBD": 1,
+            "TPSA": 51.38,
+            "RotatableBonds": 1
+          }
+        },
+        "Component_B": {
+          "smiles": "Cc1cc(C=O)no1",
+          "valid": true,
+          "properties": {
+            "MW": 111.1,
+            "LogP": 0.8,
+            "HBA": 3,
+            "HBD": 0,
+            "TPSA": 43.1,
+            "RotatableBonds": 1
+          }
+        },
+        "Component_C": {
+          "smiles": "CCOC(=O)CCC[N+]#[C-]",
+          "valid": true,
+          "properties": {
+            "MW": 141.17,
+            "LogP": 1.25,
+            "HBA": 2,
+            "HBD": 0,
+            "TPSA": 30.66,
+            "RotatableBonds": 4
+          }
+        },
+        "Product": {
+          "smiles": "CCOC(=O)CCCNC1=C(N=C2N1C=CC=C2N1CCOCC1)C1=NOC(C)=C1",
+          "valid": true,
+          "properties": {
+            "MW": 413.48,
+            "LogP": 2.89,
+            "HBA": 9,
+            "HBD": 1,
+            "TPSA": 94.13,
+            "RotatableBonds": 8
+          }
+        }
+      }
+    },
+    {
+      "entry": 354,
+      "z_id": "Z8780122034",
+      "yield_percent": 2.0,
+      "components": {
+        "Component_A": {
+          "smiles": "Nc1ncc(Cl)c(Cl)c1Cl",
+          "valid": true,
+          "properties": {
+            "MW": 197.45,
+            "LogP": 2.62,
+            "HBA": 2,
+            "HBD": 1,
+            "TPSA": 38.91,
+            "RotatableBonds": 0
+          }
+        },
+        "Component_B": {
+          "smiles": "Fc1ccc(C=O)cc1",
+          "valid": true,
+          "properties": {
+            "MW": 124.11,
+            "LogP": 1.64,
+            "HBA": 1,
+            "HBD": 0,
+            "TPSA": 17.07,
+            "RotatableBonds": 1
+          }
+        },
+        "Component_C": {
+          "smiles": "CCCC[N+]#[C-]",
+          "valid": true,
+          "properties": {
+            "MW": 83.13,
+            "LogP": 1.71,
+            "HBA": 0,
+            "HBD": 0,
+            "TPSA": 4.36,
+            "RotatableBonds": 2
+          }
+        },
+        "Product": {
+          "smiles": "CCCCNC1=C(N=C2N1C=C(Cl)C(Cl)=C2Cl)C1=CC=C(F)C=C1",
+          "valid": true,
+          "properties": {
+            "MW": 386.69,
+            "LogP": 6.31,
+            "HBA": 3,
+            "HBD": 1,
+            "TPSA": 29.33,
+            "RotatableBonds": 5
+          }
+        }
+      }
+    },
+    {
+      "entry": 1908,
+      "z_id": "Z8873685257",
+      "yield_percent": 2.0,
+      "components": {
+        "Component_A": {
+          "smiles": "Cc1cncc(N)n1",
+          "valid": true,
+          "properties": {
+            "MW": 109.13,
+            "LogP": 0.37,
+            "HBA": 3,
+            "HBD": 1,
+            "TPSA": 51.8,
+            "RotatableBonds": 0
+          }
+        },
+        "Component_B": {
+          "smiles": "O=Cc1noc2CCCc12",
+          "valid": true,
+          "properties": {
+            "MW": 137.14,
+            "LogP": 0.98,
+            "HBA": 3,
+            "HBD": 0,
+            "TPSA": 43.1,
+            "RotatableBonds": 1
+          }
+        },
+        "Component_C": {
+          "smiles": "C[N+]#[C-]",
+          "valid": true,
+          "properties": {
+            "MW": 41.05,
+            "LogP": 0.54,
+            "HBA": 0,
+            "HBD": 0,
+            "TPSA": 4.36,
+            "RotatableBonds": 0
+          }
+        },
+        "Product": {
+          "smiles": "CNC1=C(N=C2C=NC=C(C)N12)C1=NOC2=C1CCC2",
+          "valid": true,
+          "properties": {
+            "MW": 269.31,
+            "LogP": 2.22,
+            "HBA": 6,
+            "HBD": 1,
+            "TPSA": 68.25,
+            "RotatableBonds": 2
+          }
+        }
+      }
+    },
+    {
+      "entry": 1916,
+      "z_id": "Z8873684620",
+      "yield_percent": 2.0,
+      "components": {
+        "Component_A": {
+          "smiles": "Cc1cc(Br)cc(N)n1",
+          "valid": true,
+          "properties": {
+            "MW": 187.04,
+            "LogP": 1.73,
+            "HBA": 2,
+            "HBD": 1,
+            "TPSA": 38.91,
+            "RotatableBonds": 0
+          }
+        },
+        "Component_B": {
+          "smiles": "Cn1ncnc1C=O",
+          "valid": true,
+          "properties": {
+            "MW": 111.1,
+            "LogP": -0.37,
+            "HBA": 4,
+            "HBD": 0,
+            "TPSA": 47.78,
+            "RotatableBonds": 1
+          }
+        },
+        "Component_C": {
+          "smiles": "[C-]#[N+]CC1CC1",
+          "valid": true,
+          "properties": {
+            "MW": 81.12,
+            "LogP": 1.32,
+            "HBA": 0,
+            "HBD": 0,
+            "TPSA": 4.36,
+            "RotatableBonds": 1
+          }
+        },
+        "Product": {
+          "smiles": "CN1N=CN=C1C1=C(NCC2CC2)N2C(C=C(Br)C=C2C)=N1",
+          "valid": true,
+          "properties": {
+            "MW": 361.25,
+            "LogP": 3.02,
+            "HBA": 6,
+            "HBD": 1,
+            "TPSA": 60.04,
+            "RotatableBonds": 4
+          }
+        }
+      }
+    },
+    {
+      "entry": 1919,
+      "z_id": "Z8878918392",
+      "yield_percent": 2.0,
+      "components": {
+        "Component_A": {
+          "smiles": "Cc1cc(nnc1N)C(F)(F)F",
+          "valid": true,
+          "properties": {
+            "MW": 177.13,
+            "LogP": 1.39,
+            "HBA": 3,
+            "HBD": 1,
+            "TPSA": 51.8,
+            "RotatableBonds": 0
+          }
+        },
+        "Component_B": {
+          "smiles": "COc1cc(C=O)ccc1S(=O)(=O)C",
+          "valid": true,
+          "properties": {
+            "MW": 214.24,
+            "LogP": 0.91,
+            "HBA": 4,
+            "HBD": 0,
+            "TPSA": 60.44,
+            "RotatableBonds": 3
+          }
+        },
+        "Component_C": {
+          "smiles": "[C-]#[N+]C1CCOCC1",
+          "valid": true,
+          "properties": {
+            "MW": 111.14,
+            "LogP": 1.08,
+            "HBA": 1,
+            "HBD": 0,
+            "TPSA": 13.59,
+            "RotatableBonds": 0
+          }
+        },
+        "Product": {
+          "smiles": "COC1=C(C=CC(=C1)C1=C(NC2CCOCC2)N2N=C(C=C(C)C2=N1)C(F)(F)F)S(C)(=O)=O",
+          "valid": true,
+          "properties": {
+            "MW": 484.5,
+            "LogP": 3.73,
+            "HBA": 8,
+            "HBD": 1,
+            "TPSA": 94.82,
+            "RotatableBonds": 5
+          }
+        }
+      }
+    },
+    {
+      "entry": 355,
+      "z_id": "Z8810903007",
+      "yield_percent": 2.2,
+      "components": {
+        "Component_A": {
+          "smiles": "Nc1nccnc1OC2CCC2",
+          "valid": true,
+          "properties": {
+            "MW": 165.2,
+            "LogP": 0.99,
+            "HBA": 4,
+            "HBD": 1,
+            "TPSA": 61.03,
+            "RotatableBonds": 2
+          }
+        },
+        "Component_B": {
+          "smiles": "O=CCN1C(=O)c2ccccc2C1=O",
+          "valid": true,
+          "properties": {
+            "MW": 189.17,
+            "LogP": 0.48,
+            "HBA": 3,
+            "HBD": 0,
+            "TPSA": 54.45,
+            "RotatableBonds": 2
+          }
+        },
+        "Component_C": {
+          "smiles": "[C-]#[N+]C1CCOC1",
+          "valid": true,
+          "properties": {
+            "MW": 97.12,
+            "LogP": 0.69,
+            "HBA": 1,
+            "HBD": 0,
+            "TPSA": 13.59,
+            "RotatableBonds": 0
+          }
+        },
+        "Product": {
+          "smiles": "O=C1N(CC2=C(NC3CCOC3)N3C=CN=C(OC4CCC4)C3=N2)C(=O)C2=C1C=CC=C2",
+          "valid": true,
+          "properties": {
+            "MW": 433.47,
+            "LogP": 2.66,
+            "HBA": 8,
+            "HBD": 1,
+            "TPSA": 98.06,
+            "RotatableBonds": 6
+          }
+        }
+      }
+    },
+    {
+      "entry": 967,
+      "z_id": "Z8837933173",
+      "yield_percent": 2.2,
+      "components": {
+        "Component_A": {
+          "smiles": "Nc1ncc2COCCc2c1C#N",
+          "valid": true,
+          "properties": {
+            "MW": 175.19,
+            "LogP": 0.61,
+            "HBA": 4,
+            "HBD": 1,
+            "TPSA": 71.93,
+            "RotatableBonds": 0
+          }
+        },
+        "Component_B": {
+          "smiles": "Cc1nc(C=O)c[nH]1",
+          "valid": true,
+          "properties": {
+            "MW": 110.12,
+            "LogP": 0.53,
+            "HBA": 2,
+            "HBD": 1,
+            "TPSA": 45.75,
+            "RotatableBonds": 1
+          }
+        },
+        "Component_C": {
+          "smiles": "Brc1cccc(C[N+]#[C-])c1",
+          "valid": true,
+          "properties": {
+            "MW": 196.05,
+            "LogP": 2.87,
+            "HBA": 0,
+            "HBD": 0,
+            "TPSA": 4.36,
+            "RotatableBonds": 1
+          }
+        },
+        "Product": {
+          "smiles": "CC1=NC(=CN1)C1=C(NCC2=CC(Br)=CC=C2)N2C=C3COCCC3=C(C#N)C2=N1",
+          "valid": true,
+          "properties": {
+            "MW": 463.34,
+            "LogP": 4.35,
+            "HBA": 6,
+            "HBD": 2,
+            "TPSA": 91.03,
+            "RotatableBonds": 4
+          }
+        }
+      }
+    },
+    {
+      "entry": 350,
+      "z_id": "Z8798985046",
+      "yield_percent": 2.4,
+      "components": {
+        "Component_A": {
+          "smiles": "Nc1nccnc1N2CCCC2",
+          "valid": true,
+          "properties": {
+            "MW": 164.21,
+            "LogP": 0.66,
+            "HBA": 4,
+            "HBD": 1,
+            "TPSA": 55.04,
+            "RotatableBonds": 1
+          }
+        },
+        "Component_B": {
+          "smiles": "COC(=O)c1cc(C=O)nn1C",
+          "valid": true,
+          "properties": {
+            "MW": 168.15,
+            "LogP": 0.02,
+            "HBA": 5,
+            "HBD": 0,
+            "TPSA": 61.19,
+            "RotatableBonds": 2
+          }
+        },
+        "Component_C": {
+          "smiles": "COCC[N+]#[C-]",
+          "valid": true,
+          "properties": {
+            "MW": 85.11,
+            "LogP": 0.55,
+            "HBA": 1,
+            "HBD": 0,
+            "TPSA": 13.59,
+            "RotatableBonds": 2
+          }
+        },
+        "Product": {
+          "smiles": "COCCNC1=C(N=C2N1C=CN=C2N1CCCC1)C1=NN(C)C(=C1)C(=O)OC",
+          "valid": true,
+          "properties": {
+            "MW": 399.46,
+            "LogP": 1.57,
+            "HBA": 10,
+            "HBD": 1,
+            "TPSA": 98.81,
+            "RotatableBonds": 7
+          }
+        }
+      }
+    },
+    {
+      "entry": 352,
+      "z_id": "Z8781341773",
+      "yield_percent": 2.4,
+      "components": {
+        "Component_A": {
+          "smiles": "Nc1ccc(nn1)C(F)(F)F",
+          "valid": true,
+          "properties": {
+            "MW": 163.1,
+            "LogP": 1.08,
+            "HBA": 3,
+            "HBD": 1,
+            "TPSA": 51.8,
+            "RotatableBonds": 0
+          }
+        },
+        "Component_B": {
+          "smiles": "COCn1nccc1C=O",
+          "valid": true,
+          "properties": {
+            "MW": 140.14,
+            "LogP": 0.3,
+            "HBA": 4,
+            "HBD": 0,
+            "TPSA": 44.12,
+            "RotatableBonds": 3
+          }
+        },
+        "Component_C": {
+          "smiles": "COC(=O)C1CC(C1)[N+]#[C-]",
+          "valid": true,
+          "properties": {
+            "MW": 139.15,
+            "LogP": 0.86,
+            "HBA": 2,
+            "HBD": 0,
+            "TPSA": 30.66,
+            "RotatableBonds": 1
+          }
+        },
+        "Product": {
+          "smiles": "COCN1N=CC=C1C1=C(NC2CC(C2)C(=O)OC)N2N=C(C=CC2=N1)C(F)(F)F",
+          "valid": true,
+          "properties": {
+            "MW": 424.38,
+            "LogP": 2.58,
+            "HBA": 9,
+            "HBD": 1,
+            "TPSA": 95.57,
+            "RotatableBonds": 6
+          }
+        }
+      }
+    },
+    {
+      "entry": 1912,
+      "z_id": "Z8878918510",
+      "yield_percent": 2.4,
+      "components": {
+        "Component_A": {
+          "smiles": "Nc1ncccc1N2CCCCC2",
+          "valid": true,
+          "properties": {
+            "MW": 177.25,
+            "LogP": 1.65,
+            "HBA": 3,
+            "HBD": 1,
+            "TPSA": 42.15,
+            "RotatableBonds": 1
+          }
+        },
+        "Component_B": {
+          "smiles": "Cc1cc(C=O)no1",
+          "valid": true,
+          "properties": {
+            "MW": 111.1,
+            "LogP": 0.8,
+            "HBA": 3,
+            "HBD": 0,
+            "TPSA": 43.1,
+            "RotatableBonds": 1
+          }
+        },
+        "Component_C": {
+          "smiles": "COCC[N+]#[C-]",
+          "valid": true,
+          "properties": {
+            "MW": 85.11,
+            "LogP": 0.55,
+            "HBA": 1,
+            "HBD": 0,
+            "TPSA": 13.59,
+            "RotatableBonds": 2
+          }
+        },
+        "Product": {
+          "smiles": "COCCNC1=C(N=C2N1C=CC=C2N1CCCCC1)C1=NOC(C)=C1",
+          "valid": true,
+          "properties": {
+            "MW": 355.44,
+            "LogP": 3.35,
+            "HBA": 7,
+            "HBD": 1,
+            "TPSA": 67.83,
+            "RotatableBonds": 6
+          }
+        }
+      }
+    },
+    {
+      "entry": 337,
+      "z_id": "Z8786958823",
+      "yield_percent": 2.6,
+      "components": {
+        "Component_A": {
+          "smiles": "Nc1cc(C#N)ccn1",
+          "valid": true,
+          "properties": {
+            "MW": 119.13,
+            "LogP": 0.54,
+            "HBA": 3,
+            "HBD": 1,
+            "TPSA": 62.7,
+            "RotatableBonds": 0
+          }
+        },
+        "Component_B": {
+          "smiles": "O=Cc1cnsn1",
+          "valid": true,
+          "properties": {
+            "MW": 114.13,
+            "LogP": 0.35,
+            "HBA": 4,
+            "HBD": 0,
+            "TPSA": 42.85,
+            "RotatableBonds": 1
+          }
+        },
+        "Component_C": {
+          "smiles": "C[N+]#[C-]",
+          "valid": true,
+          "properties": {
+            "MW": 41.05,
+            "LogP": 0.54,
+            "HBA": 0,
+            "HBD": 0,
+            "TPSA": 4.36,
+            "RotatableBonds": 0
+          }
+        },
+        "Product": {
+          "smiles": "CNC1=C(N=C2C=C(C=CN12)C#N)C1=NSN=C1",
+          "valid": true,
+          "properties": {
+            "MW": 256.29,
+            "LogP": 1.77,
+            "HBA": 7,
+            "HBD": 1,
+            "TPSA": 78.9,
+            "RotatableBonds": 2
+          }
+        }
+      }
+    },
+    {
+      "entry": 348,
+      "z_id": "Z8778277397",
+      "yield_percent": 2.6,
+      "components": {
+        "Component_A": {
+          "smiles": "Nc1nccn2ccnc12",
+          "valid": true,
+          "properties": {
+            "MW": 134.14,
+            "LogP": 0.31,
+            "HBA": 4,
+            "HBD": 1,
+            "TPSA": 56.21,
+            "RotatableBonds": 0
+          }
+        },
+        "Component_B": {
+          "smiles": "Cc1ccc(C=O)cc1",
+          "valid": true,
+          "properties": {
+            "MW": 120.15,
+            "LogP": 1.81,
+            "HBA": 1,
+            "HBD": 0,
+            "TPSA": 17.07,
+            "RotatableBonds": 1
+          }
+        },
+        "Component_C": {
+          "smiles": "[C-]#[N+]C1CCOCC1",
+          "valid": true,
+          "properties": {
+            "MW": 111.14,
+            "LogP": 1.08,
+            "HBA": 1,
+            "HBD": 0,
+            "TPSA": 13.59,
+            "RotatableBonds": 0
+          }
+        },
+        "Product": {
+          "smiles": "CC1=CC=C(C=C1)C1=C(NC2CCOCC2)N2C=CN3C=CN=C3C2=N1",
+          "valid": true,
+          "properties": {
+            "MW": 347.42,
+            "LogP": 3.55,
+            "HBA": 6,
+            "HBD": 1,
+            "TPSA": 55.86,
+            "RotatableBonds": 3
+          }
+        }
+      }
+    },
+    {
+      "entry": 351,
+      "z_id": "Z8810902957",
+      "yield_percent": 2.6,
+      "components": {
+        "Component_A": {
+          "smiles": "CC(O)c1cc(Br)cnc1N",
+          "valid": true,
+          "properties": {
+            "MW": 217.07,
+            "LogP": 1.48,
+            "HBA": 3,
+            "HBD": 2,
+            "TPSA": 59.14,
+            "RotatableBonds": 1
+          }
+        },
+        "Component_B": {
+          "smiles": "CCc1nn(C)cc1C=O",
+          "valid": true,
+          "properties": {
+            "MW": 138.17,
+            "LogP": 0.8,
+            "HBA": 3,
+            "HBD": 0,
+            "TPSA": 34.89,
+            "RotatableBonds": 2
+          }
+        },
+        "Component_C": {
+          "smiles": "[C-]#[N+]CC1CCCO1",
+          "valid": true,
+          "properties": {
+            "MW": 111.14,
+            "LogP": 1.08,
+            "HBA": 1,
+            "HBD": 0,
+            "TPSA": 13.59,
+            "RotatableBonds": 1
+          }
+        },
+        "Product": {
+          "smiles": "CCC1=NN(C)C=C1C1=C(NCC2CCCO2)N2C=C(Br)C=C(C(C)O)C2=N1",
+          "valid": true,
+          "properties": {
+            "MW": 448.37,
+            "LogP": 3.7,
+            "HBA": 7,
+            "HBD": 2,
+            "TPSA": 76.61,
+            "RotatableBonds": 6
+          }
+        }
+      }
+    }
+  ]
+}
